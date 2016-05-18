@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 700d1da2acae877489eccc88696896e6
+timeCreated: 1448416909
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Player-Idle_1
+    21300002: Player-Idle_2
+    21300004: Player-Idle_3
+    21300006: Player-Idle_4
+    21300008: Player-Idle_5
+    21300010: Player-Idle_6
+    21300012: Player-Run_1
+    21300014: Player-Fall_1
+    21300016: Player-Float_1
+    21300018: Player-Float_2
+    21300020: Player-Run_2
+    21300022: Player-Fall_2
+    21300024: Player-Float_3
+    21300026: Player-Float_4
+    21300028: Player-Idle_7
+    21300030: Player-Idle_8
+    21300032: Player-Idle_9
+    21300034: Player-Idle_10
+    21300036: Player-Idle_11
+    21300038: Player-Idle_12
+    21300040: Player-Run_3
+    21300042: Player-Fall_3
+    21300044: Player-Float_5
+    21300046: Player-Float_6
+    21300048: Player-Run_4
+    21300050: Player-Fall_4
+    21300052: Player-Float_7
+    21300054: Player-Float_8
+    21300056: Player-Idle_13
+    21300058: Player-Idle_14
+    21300060: Player-Idle_15
+    21300062: Player-Idle_16
+    21300064: Player-Idle_17
+    21300066: Player-Idle_18
+    21300068: Player-Run_5
+    21300070: Player-Fall_5
+    21300072: Player-Run_6
+    21300074: Player-Fall_6
+    21300076: Player-Float_9
+    21300078: Player-Float_10
+    21300080: Player-Run_7
+    21300082: Player-Fall_7
+    21300084: Player-Float_11
+    21300086: Player-Float_12
+    21300088: Player-Idle_19
+    21300090: Player-Idle_20
+    21300092: Player-Idle_21
+    21300094: Player-Idle_22
+    21300096: Player-Idle_23
+    21300098: Player-Idle_24
+    21300100: Player-Run_8
+    21300102: Player-Fall_8
+    21300104: Player-Fall_10
+    21300106: Player-Run_9
+    21300108: Player-Fall_9
+    21300110: Player-Fall_12
+    21300112: Player-Idle_25
+    21300114: Player-Idle_26
+    21300116: Player-Idle_27
+    21300118: Player-Idle_28
+    21300120: Player-Idle_29
+    21300122: Player-Idle_30
+    21300124: Player-Run_10
+    21300126: Player-Fall_11
+    21300128: Player-Run_11
+    21300130: Player-Run_12
+    21300132: Player-Die_1
+    21300134: Player-Die_2
+    21300136: Player-Die_3
+    21300138: Player-Die_4
+    21300140: Player-Die_5
+    21300142: Player-Die_6
+    21300144: Player-Die_7
+    21300146: Player-Die_8
+    21300148: Player-Run_13
+    21300150: Player-Run_14
+    21300152: Player-Run_15
+    21300154: Player-Run_16
+    21300156: Player-Jump_1
+    21300158: Player-Jump Up_1
+    21300160: Player-Jump Down_1
+    21300162: Player-Jump Down_2
+    21300164: Player-Jump Down_3
+    21300166: Player-Jump Down_4
+    21300168: Player-Jump Down_5
+    21300170: Player-Jump Down_6
+    21300172: Player-Jump Down_7
+    21300174: Player-Jump Down_8
+    21300176: Player-Jump Down_9
+    21300178: Player-Jump Down_10
+    21300180: Player-Jump Down_11
+    21300182: Player-Jump Down_12
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Player-Die_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 937
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Die_2
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 937
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Die_3
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 937
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Die_4
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 937
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Die_5
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 937
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Die_6
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 937
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Die_7
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 937
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Die_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 781
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Run_1
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 781
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Run_2
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 781
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Run_3
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 781
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Run_4
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 781
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Run_5
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 781
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Run_6
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 781
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Run_7
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 625
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Run_8
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 625
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Run_9
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 625
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Run_10
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 625
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Run_11
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 625
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Run_12
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 625
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Run_13
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 625
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Run_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 469
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Run_15
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 469
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Run_16
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 469
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Float_1
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 469
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Float_2
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 469
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Float_3
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 469
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Float_4
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 469
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Float_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 313
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Float_6
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 313
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Float_7
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 313
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Float_8
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 313
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Float_9
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 313
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Float_10
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 313
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Float_11
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 313
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Float_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 157
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Jump Up_1
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 157
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Jump Down_1
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 157
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Jump Down_2
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 157
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Jump Down_3
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 157
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Jump Down_4
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 157
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Jump Down_5
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 157
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Jump Down_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Jump Down_7
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Jump Down_8
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Jump Down_9
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Jump Down_10
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Jump Down_11
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 1
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Jump Down_12
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 1
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

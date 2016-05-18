@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: 47c5ff45438f95d42834cb712e8a0acc
+timeCreated: 1448325444
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: UI Water Bar_0
+    21300002: UI Water Bar_1
+    21300004: UI Water Bar_2
+    21300006: UI Water Bar_3
+    21300008: UI Water Bar_4
+    21300010: UI Water Bar_5
+    21300012: UI Water Bar_6
+    21300014: UI Water Bar_7
+    21300016: UI Water Bar_8
+    21300018: UI Water Bar_9
+    21300020: UI Water Bar_10
+    21300022: UI Water Bar_11
+    21300024: UI Water Bar_12
+    21300026: UI Water Bar_13
+    21300028: UI Water Bar_14
+    21300030: UI Water Bar_15
+    21300032: UI Water Bar_16
+    21300034: UI Water Bar_17
+    21300036: UI Water Bar_18
+    21300038: UI Water Bar_19
+    21300040: UI Water Bar_20
+    21300042: UI Water Bar_21
+    21300044: UI Water Bar_22
+    21300046: UI Water Bar_23
+    21300048: UI Water Bar_24
+    21300050: UI Water Bar_25
+    21300052: UI Water Bar_26
+    21300054: UI Water Bar_27
+    21300056: UI Water Bar_28
+    21300058: UI Water Bar_29
+    21300060: UI Water Bar_30
+    21300062: UI Water Bar_31
+    21300064: UI Water Bar_32
+    21300066: UI Water Bar_33
+    21300068: UI Water Bar_34
+    21300070: UI Water Bar_35
+    21300072: UI Water Bar_36
+    21300074: UI Water Bar_37
+    21300076: UI Water Bar_38
+    21300078: UI Water Bar_39
+    21300080: UI Water Bar_40
+    21300082: UI Water Bar_41
+    21300084: UI Water Bar_42
+    21300086: UI Water Bar_43
+    21300088: UI Water Bar_44
+    21300090: UI Water Bar_45
+    21300092: UI Water Bar_46
+    21300094: UI Water Bar_47
+    21300096: UI Water Bar_48
+    21300098: UI Water Bar_49
+    21300100: UI Water Bar_50
+    21300102: UI Water Bar_51
+    21300104: UI Water Bar_52
+    21300106: UI Water Bar_53
+    21300108: UI Water Bar_54
+    21300110: UI Water Bar_55
+    21300112: UI Water Bar_56
+    21300114: UI Water Bar_57
+    21300116: UI Water Bar_58
+    21300118: UI Water Bar_59
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: UI Water Bar_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 519
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_1
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 519
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_2
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 519
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_3
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 519
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 482
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_5
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 482
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_6
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 482
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_7
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 482
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 445
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_9
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 445
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_10
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 445
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_11
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 445
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 408
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_13
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 408
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_14
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 408
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_15
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 408
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 371
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_17
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 371
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_18
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 371
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_19
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 371
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 334
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_21
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 334
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_22
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 334
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_23
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 334
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 297
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_25
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 297
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_26
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 297
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_27
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 297
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_28
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 260
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_29
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 260
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_30
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 260
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_31
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 260
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_32
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 223
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_33
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 223
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_34
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 223
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_35
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 223
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_36
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 186
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_37
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 186
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_38
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 186
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_39
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 186
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_40
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 149
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_41
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 149
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_42
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 149
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_43
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 149
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_44
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 112
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_45
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 112
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_46
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 112
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_47
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 112
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_48
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 75
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_49
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 75
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_50
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 75
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_51
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 75
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_52
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 38
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_53
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 38
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_54
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 38
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_55
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 38
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_56
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_57
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_58
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 1
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI Water Bar_59
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 1
+        width: 224
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

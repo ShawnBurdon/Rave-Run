@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Player
+  - Large
+  - Small
+  - Water
+  - Spring
+  - LevelSpring
+  - Arch
+  - Obstacle
+  - Medium
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Level
+  - GUI
+  - Player
+  - Ground
+  - Obstacles
+  - TouchScreen
+  - Euphoria
+  - RainbowBracelet
+  - Coin
+  - Near Miss
+  - Nothing
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Level
+    uniqueID: 3513465069
+    locked: 0
+  - name: Character
+    uniqueID: 561542005
+    locked: 0
+  - name: GUI
+    uniqueID: 3040658111
+    locked: 0

@@ -1,0 +1,20 @@
+
+V Ferris Wheel.png
+size: 274,170
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Images/Legs
+  rotate: true
+  xy: 168, 44
+  size: 124, 104
+  orig: 124, 104
+  offset: 0, 0
+  index: -1
+Images/Wheel
+  rotate: false
+  xy: 2, 2
+  size: 164, 166
+  orig: 164, 166
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,583 @@
+fileFormatVersion: 2
+guid: 7216ed3e7a726b042bdb9a16485c9f42
+timeCreated: 1452985689
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: HD Player_0
+    21300002: HD Player_1
+    21300004: HD Player_2
+    21300006: HD Player_3
+    21300008: HD Player_4
+    21300010: HD Player_5
+    21300012: HD Player_6
+    21300014: HD Player_7
+    21300016: HD Player_8
+    21300018: HD Player_9
+    21300020: HD Player_10
+    21300022: HD Player_11
+    21300024: HD Player_12
+    21300026: HD Player_13
+    21300028: HD Player_14
+    21300030: HD Player_15
+    21300032: HD Player_16
+    21300034: HD Player_17
+    21300036: HD Player_18
+    21300038: HD Player_19
+    21300040: HD Player_20
+    21300042: HD Player_21
+    21300044: HD Player_22
+    21300046: HD Player_23
+    21300048: HD Player_24
+    21300050: HD Player_25
+    21300052: HD Player_26
+    21300054: HD Player_27
+    21300056: HD Player_28
+    21300058: HD Player_29
+    21300060: HD Player_30
+    21300062: HD Player_31
+    21300064: HD Player_32
+    21300066: HD Player_33
+    21300068: HD Player_34
+    21300070: HD Player_35
+    21300072: HD Player_36
+    21300074: HD Player_37
+    21300076: HD Player_38
+    21300078: HD Player_39
+    21300080: HD Player_40
+    21300082: HD Player_41
+    21300084: HD Player_42
+    21300086: HD Player_43
+    21300088: HD Player_44
+    21300090: HD Player_45
+    21300092: HD Player_46
+    21300094: HD Player_47
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: HD Player_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2356
+        width: 322
+        height: 470
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HD Player_1
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 2356
+        width: 322
+        height: 470
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HD Player_2
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 2356
+        width: 322
+        height: 470
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HD Player_3
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 2356
+        width: 322
+        height: 470
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HD Player_4
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 2356
+        width: 322
+        height: 470
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HD Player_5
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 2356
+        width: 322
+        height: 470
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HD Player_6
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 2356
+        width: 322
+        height: 470
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HD Player_7
+      rect:
+        serializedVersion: 2
+        x: 2262
+        y: 2356
+        width: 322
+        height: 470
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HD Player_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1885
+        width: 322
+        height: 470
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HD Player_9
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1885
+        width: 322
+        height: 470
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HD Player_10
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 1885
+        width: 322
+        height: 470
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HD Player_11
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 1885
+        width: 322
+        height: 470
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HD Player_12
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 1885
+        width: 322
+        height: 470
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HD Player_13
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 1885
+        width: 322
+        height: 470
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HD Player_14
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 1885
+        width: 322
+        height: 470
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HD Player_15
+      rect:
+        serializedVersion: 2
+        x: 2262
+        y: 1885
+        width: 322
+        height: 470
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HD Player_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1414
+        width: 322
+        height: 470
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HD Player_17
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1414
+        width: 322
+        height: 470
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HD Player_18
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 1414
+        width: 322
+        height: 470
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HD Player_19
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 1414
+        width: 322
+        height: 470
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HD Player_20
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 1414
+        width: 322
+        height: 470
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HD Player_21
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 1414
+        width: 322
+        height: 470
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HD Player_22
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 1414
+        width: 322
+        height: 470
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HD Player_23
+      rect:
+        serializedVersion: 2
+        x: 2262
+        y: 1414
+        width: 322
+        height: 470
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HD Player_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 943
+        width: 322
+        height: 470
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HD Player_25
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 943
+        width: 322
+        height: 470
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HD Player_26
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 943
+        width: 322
+        height: 470
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HD Player_27
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 943
+        width: 322
+        height: 470
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HD Player_28
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 943
+        width: 322
+        height: 470
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HD Player_29
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 943
+        width: 322
+        height: 470
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HD Player_30
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 943
+        width: 322
+        height: 470
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HD Player_31
+      rect:
+        serializedVersion: 2
+        x: 2262
+        y: 943
+        width: 322
+        height: 470
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HD Player_32
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 472
+        width: 322
+        height: 470
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HD Player_33
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 472
+        width: 322
+        height: 470
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HD Player_34
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 472
+        width: 322
+        height: 470
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HD Player_35
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 472
+        width: 322
+        height: 470
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HD Player_36
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 472
+        width: 322
+        height: 470
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HD Player_37
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 472
+        width: 322
+        height: 470
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HD Player_38
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 472
+        width: 322
+        height: 470
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HD Player_39
+      rect:
+        serializedVersion: 2
+        x: 2262
+        y: 472
+        width: 322
+        height: 470
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HD Player_40
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 322
+        height: 470
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HD Player_41
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1
+        width: 322
+        height: 470
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HD Player_42
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 1
+        width: 322
+        height: 470
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HD Player_43
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 1
+        width: 322
+        height: 470
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HD Player_44
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 1
+        width: 322
+        height: 470
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HD Player_45
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 1
+        width: 322
+        height: 470
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HD Player_46
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 1
+        width: 322
+        height: 470
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HD Player_47
+      rect:
+        serializedVersion: 2
+        x: 2262
+        y: 1
+        width: 322
+        height: 470
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

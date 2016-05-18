@@ -1,0 +1,319 @@
+fileFormatVersion: 2
+guid: 30e79dfe652775249af93b508e033a83
+timeCreated: 1447461974
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Water Drop 1
+    21300002: Water Drop 2
+    21300004: Water Drop 3
+    21300006: Water Drop 4
+    21300008: Water Drop 5
+    21300010: Water Drop 6
+    21300012: Water Drop 7
+    21300014: Water Drop 8
+    21300016: Water Drop 9
+    21300018: Water Drop 10
+    21300020: Water Drop 11
+    21300022: Water Drop 12
+    21300024: Water Drop 13
+    21300026: Water Drop 14
+    21300028: Water Drop 15
+    21300030: Water Drop 16
+    21300032: Water Particle 1
+    21300034: Water Particle 2
+    21300036: Water Particle 3
+    21300038: Water Particle 4
+    21300040: Water Particle 5
+    21300042: Water Particle 6
+    21300044: Water Particle 7
+    21300046: Water Particle 8
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Water Drop 1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 154
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Water Drop 2
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 154
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Water Drop 3
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 154
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Water Drop 4
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 154
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Water Drop 5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 103
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Water Drop 6
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 103
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Water Drop 7
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 103
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Water Drop 8
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 103
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Water Drop 9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 52
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Water Drop 10
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 52
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Water Drop 11
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 52
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Water Drop 12
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 52
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Water Drop 13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Water Drop 14
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Water Drop 15
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Water Drop 16
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 1
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Water Particle 1
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 164
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Water Particle 2
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 164
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Water Particle 3
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 123
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Water Particle 4
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 123
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Water Particle 5
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 82
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Water Particle 6
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 82
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Water Particle 7
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 41
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Water Particle 8
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 41
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

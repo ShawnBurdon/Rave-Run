@@ -1,0 +1,76 @@
+
+Crowd Miami.png
+size: 293,111
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Images/Back Static A
+  rotate: false
+  xy: 122, 10
+  size: 169, 48
+  orig: 169, 48
+  offset: 0, 0
+  index: -1
+Images/Front Flip A
+  rotate: false
+  xy: 64, 55
+  size: 24, 54
+  orig: 24, 54
+  offset: 0, 0
+  index: -1
+Images/Front Flip B
+  rotate: false
+  xy: 99, 2
+  size: 21, 52
+  orig: 21, 52
+  offset: 0, 0
+  index: -1
+Images/Front Flip C
+  rotate: false
+  xy: 90, 56
+  size: 24, 53
+  orig: 24, 53
+  offset: 0, 0
+  index: -1
+Images/Front Flip D
+  rotate: false
+  xy: 73, 3
+  size: 24, 50
+  orig: 24, 50
+  offset: 0, 0
+  index: -1
+Images/Front Jump A
+  rotate: false
+  xy: 31, 51
+  size: 31, 58
+  orig: 31, 58
+  offset: 0, 0
+  index: -1
+Images/Front Jump B
+  rotate: false
+  xy: 116, 60
+  size: 23, 49
+  orig: 23, 49
+  offset: 0, 0
+  index: -1
+Images/Front Jump C
+  rotate: false
+  xy: 2, 36
+  size: 27, 73
+  orig: 27, 73
+  offset: 0, 0
+  index: -1
+Images/Front Static A
+  rotate: false
+  xy: 141, 61
+  size: 150, 48
+  orig: 150, 48
+  offset: 0, 0
+  index: -1
+Images/Front Static B
+  rotate: true
+  xy: 2, 2
+  size: 32, 69
+  orig: 32, 69
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,616 @@
+fileFormatVersion: 2
+guid: a050392aec1b85448ba3681a4104a050
+timeCreated: 1451979478
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: L3 Env Bar
+    21300002: L2 Env Building 2
+    21300004: L1 Prop 4
+    21300006: L3 Env Stage Set L
+    21300008: L3 Ground Corner R
+    21300010: L3 Ground Corner L
+    21300012: L3 Env Stage Set R
+    21300014: L2 Ground Corner R
+    21300016: L2 Env Building 3
+    21300018: L2 Env Building 1
+    21300020: L1 Ground Corner R
+    21300022: L1 Env Mountains
+    21300024: L3 Ground Center
+    21300026: L2 Env Building 4
+    21300028: L2 Env Tree Palm
+    21300030: L2 Env Stage Set
+    21300032: L1 Ground Corner L
+    21300034: L3 Prop Flower Blue
+    21300036: L1 Env Tree Short
+    21300038: L2 Prop Speaker Tall
+    21300040: L2 Prop Speaker Large
+    21300042: L3 Env Spotlight
+    21300044: L1 Env Large Tent
+    21300046: L1 Prop 1
+    21300048: L2 Prop Speaker Small
+    21300050: L2 Env Heinekin
+    21300052: L0 Prop Normal Spring
+    21300054: L1 Env Small Tent
+    21300056: L0 Prop Level Spring
+    21300058: L1 Prop Flower Arch
+    21300060: L1 Ground Center
+    21300062: L2 Env Tree Thin
+    21300064: L3 Prop Mushroom Large
+    21300066: L3 Env Pole
+    21300068: L2 Env Building 5
+    21300070: L1 Env Tree Tall
+    21300072: L2 Env Tent
+    21300074: L1 Env Rings
+    21300076: L1 Prop 3
+    21300078: L2 Prop Smoke Base
+    21300080: L3 Prop Flower Red
+    21300082: L3 Prop Mushroom Medium
+    21300084: L3 Prop Neon Arch
+    21300086: T1 Env Clouds
+    21300088: L4 Ground Long
+    21300090: L2 Ground Center
+    21300092: L2 Ground Corner L
+    21300094: L1 Prop 2
+    21300096: L4 Ground Medium
+    21300098: L4 Ground Short
+    21300100: L2 Env Fence
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: L3 Env Bar
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2032
+        width: 1136
+        height: 20
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L2 Env Building 2
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 1572
+        width: 250
+        height: 480
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L1 Prop 4
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 1762
+        width: 99
+        height: 290
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L3 Env Stage Set L
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1623
+        width: 1132
+        height: 408
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L3 Ground Corner R
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 1845
+        width: 512
+        height: 186
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L3 Ground Corner L
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 1658
+        width: 512
+        height: 186
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L3 Env Stage Set R
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1214
+        width: 1132
+        height: 408
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L2 Ground Corner R
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 1471
+        width: 512
+        height: 186
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L2 Env Building 3
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 1114
+        width: 156
+        height: 457
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L2 Env Building 1
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 1223
+        width: 148
+        height: 348
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L1 Ground Corner R
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 1284
+        width: 512
+        height: 186
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L1 Env Mountains
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1079
+        width: 1067
+        height: 134
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L3 Ground Center
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 1097
+        width: 512
+        height: 186
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L2 Env Building 4
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 633
+        width: 150
+        height: 480
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L2 Env Tree Palm
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 982
+        width: 140
+        height: 240
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L2 Env Stage Set
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 737
+        width: 818
+        height: 341
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L1 Ground Corner L
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 892
+        width: 512
+        height: 186
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L3 Prop Flower Blue
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 916
+        width: 164
+        height: 180
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L1 Env Tree Short
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 940
+        width: 140
+        height: 156
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L2 Prop Speaker Tall
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 892
+        width: 60
+        height: 204
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L2 Prop Speaker Large
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 713
+        width: 120
+        height: 268
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L3 Env Spotlight
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 121
+        width: 34
+        height: 860
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L1 Env Large Tent
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 814
+        width: 232
+        height: 77
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L1 Prop 1
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 781
+        width: 73
+        height: 110
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L2 Prop Speaker Small
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 743
+        width: 60
+        height: 148
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L2 Env Heinekin
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 711
+        width: 500
+        height: 180
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L0 Prop Normal Spring
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 778
+        width: 130
+        height: 35
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L1 Env Small Tent
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 748
+        width: 102
+        height: 65
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L0 Prop Level Spring
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 742
+        width: 130
+        height: 35
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L1 Prop Flower Arch
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 406
+        width: 719
+        height: 330
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L1 Ground Center
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 550
+        width: 512
+        height: 186
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L2 Env Tree Thin
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 359
+        width: 207
+        height: 351
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L3 Prop Mushroom Large
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 445
+        width: 201
+        height: 265
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L3 Env Pole
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 493
+        width: 58
+        height: 217
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L2 Env Building 5
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 222
+        width: 150
+        height: 410
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L1 Env Tree Tall
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 472
+        width: 108
+        height: 240
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L2 Env Tent
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 409
+        width: 280
+        height: 140
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L1 Env Rings
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 459
+        width: 180
+        height: 90
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L1 Prop 3
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 241
+        width: 102
+        height: 230
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L2 Prop Smoke Base
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 430
+        width: 60
+        height: 28
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L3 Prop Flower Red
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 264
+        width: 164
+        height: 180
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L3 Prop Mushroom Medium
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 255
+        width: 129
+        height: 189
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L3 Prop Neon Arch
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 79
+        width: 714
+        height: 326
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: T1 Env Clouds
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 255
+        width: 522
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L4 Ground Long
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 434
+        height: 77
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L2 Ground Center
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 68
+        width: 512
+        height: 186
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L2 Ground Corner L
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 68
+        width: 512
+        height: 186
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L1 Prop 2
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 31
+        width: 100
+        height: 190
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L4 Ground Medium
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 3
+        width: 297
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L4 Ground Short
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 22
+        width: 257
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L2 Env Fence
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 8
+        width: 90
+        height: 59
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
