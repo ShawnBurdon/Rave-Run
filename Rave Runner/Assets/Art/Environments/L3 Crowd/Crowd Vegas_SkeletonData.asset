@@ -11,7 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
   m_Name: Crowd Vegas_SkeletonData
   m_EditorClassIdentifier: 
-  atlasAssets: []
+  atlasAssets:
+  - {fileID: 11400000, guid: c644ed30350dbc44bbc4dd167f3afd9b, type: 2}
   skeletonJSON: {fileID: 4900000, guid: 3f87074d052e9474b87a3f1451036b67, type: 3}
   scale: .00999999978
   fromAnimation: []

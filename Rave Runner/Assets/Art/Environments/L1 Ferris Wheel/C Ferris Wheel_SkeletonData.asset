@@ -11,7 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
   m_Name: C Ferris Wheel_SkeletonData
   m_EditorClassIdentifier: 
-  atlasAssets: []
+  atlasAssets:
+  - {fileID: 11400000, guid: bdbca740a75f72b4e8cfacd038d8e007, type: 2}
   skeletonJSON: {fileID: 4900000, guid: 45662c96ad190a944811bd7293241edd, type: 3}
   scale: .00999999978
   fromAnimation: []

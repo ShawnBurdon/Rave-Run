@@ -86,6 +86,8 @@ public class Player : MonoBehaviour
 						rigidBody.gravityScale = 0.06f;
 					else if (layerMovement.speedMultiplier < 2f)
 						rigidBody.gravityScale = 0.08f;
+					else if (layerMovement.speedMultiplier <= 2f)
+						rigidBody.gravityScale = 0.1f;
 					else if (layerMovement.speedMultiplier < 2.5f)
 						rigidBody.gravityScale = 0.14f;
 					else if (layerMovement.speedMultiplier < 3f)
