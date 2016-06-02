@@ -1023,7 +1023,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 145648095}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1724990124}
+        m_MethodName: DoublePoints
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &145648095
@@ -5361,10 +5372,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 916176495}
   m_RootOrder: 0
-  m_AnchorMin: {x: .5, y: .5}
-  m_AnchorMax: {x: .5, y: .5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1136, y: 852}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &693790711
 MonoBehaviour:
@@ -7871,7 +7882,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 993296473}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1724990124}
+        m_MethodName: ExtraLife
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &993296473
@@ -8203,6 +8225,17 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 916176496}
         m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1724990126}
+        m_MethodName: ExtraLifeBooster
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -13183,6 +13216,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1724990125}
   - 114: {fileID: 1724990124}
+  - 114: {fileID: 1724990126}
   m_Layer: 8
   m_Name: Scene
   m_TagString: Untagged
@@ -13206,9 +13240,14 @@ MonoBehaviour:
   canvas: {fileID: 916176494}
   finishPanel: {fileID: 328027445}
   player: {fileID: 1349765169}
+  doublePointsAnim: {fileID: 145648093}
+  extraLifeAnim: {fileID: 993296471}
   distanceText: {fileID: 1748677253}
   gameOverScore: {fileID: 579422752}
   gameOverBest: {fileID: 738184176}
+  score: 0
+  doublePointsActive: 0
+  extraLifeActive: 0
 --- !u!4 &1724990125
 Transform:
   m_ObjectHideFlags: 0
@@ -13221,6 +13260,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
+--- !u!114 &1724990126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1724990123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d9851a0b8e8ac24cab022b5e9ec2d1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1730479164 stripped
 Transform:
   m_PrefabParentObject: {fileID: 474438, guid: ae2f0815334182846a536764ec507081, type: 2}
@@ -15285,6 +15335,17 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 916176496}
         m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1724990126}
+        m_MethodName: DoublePointsBooster
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

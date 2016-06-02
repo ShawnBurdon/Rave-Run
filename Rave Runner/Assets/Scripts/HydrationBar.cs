@@ -21,10 +21,10 @@ public class HydrationBar : MonoBehaviour
 	{
 		if (waterBar.fillAmount <= 0f)
 		{
-			//GameManager.gameOver = true;
+			GameManager.gameOver = true;//REMOVE FOR DEATH
 		}
 
-        waterBar.fillAmount -= 0.01f/1f * Time.deltaTime;
+        waterBar.fillAmount -= 0.1f/1f * Time.deltaTime;
 
     }
 
