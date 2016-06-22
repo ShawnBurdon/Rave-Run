@@ -4,7 +4,6 @@ using System.Collections.Generic;
 
 public class LayerMovement : MonoBehaviour 
 {
-	public ParalaxMovement paralaxMovement;
 	public Transform[] levelContainers;
 	public Transform[] endLevelPieces;
 	public GameObject[] paralaxContainers;
@@ -12,6 +11,8 @@ public class LayerMovement : MonoBehaviour
 	public float startingSpeed;                 //The starting speed of the layer
 	public float speedMultiplier=1;            //The current speed multiplier
 	public float increaseRate;
+	public AudioClip[] songs;
+	public AudioSource audioPlayer;
 
 	public List<Transform> activeElements;   //Contains the active layer elements, which has not reached the spawnAt position
 	private List<Transform> inactive;         //Contains the inactive layer elements
@@ -76,7 +77,6 @@ public class LayerMovement : MonoBehaviour
 				speedMultiplier = 5.0f;
 		}
 
-
 		if (!GameManager.paused && GameManager.gameStarted)
 		{
 			//Loop through the active elemets
@@ -114,6 +114,48 @@ public class LayerMovement : MonoBehaviour
 		}
 	}
 
+	public void RestartOnLevel()
+	{
+		if (GameManager.currentLevel == 1)
+		{
+			IncreaseLevel();
+		}
+		else if (GameManager.currentLevel == 2)
+		{
+			IncreaseLevel();
+			IncreaseLevel();
+		}
+		else if (GameManager.currentLevel == 3)
+		{
+			IncreaseLevel();
+			IncreaseLevel();
+			IncreaseLevel();
+		}
+
+		Restart();
+
+		if (GameManager.currentLevel == 1)
+		{
+			speedMultiplier = 1.0f;
+		}
+		else if (GameManager.currentLevel == 2)
+		{
+			speedMultiplier = 2.0f;
+		}
+		else if (GameManager.currentLevel == 3)
+		{
+			speedMultiplier = 3.0f;
+		}
+		else if (GameManager.currentLevel == 4)
+		{
+			speedMultiplier = 4.0f;
+		}
+		else if (GameManager.currentLevel >= 5)
+		{
+			speedMultiplier = 5.0f;
+		}
+	}
+
 	public void SpawnEndElement()
 	{	
 		changingLevels = true;
@@ -148,8 +190,26 @@ public class LayerMovement : MonoBehaviour
 			GameManager.currentLevel = 0;
 
 		overallLevel++;
-
+		
 		ActivateLevel();
+	}
+
+	IEnumerator FadeMusic()
+	{
+		for (int i = 100; i > 0; i--)
+		{
+			audioPlayer.volume = i/100;
+			yield return new WaitForSeconds(0.015f);
+		}
+		
+		audioPlayer.clip = songs[GameManager.currentLevel];
+		audioPlayer.Play();
+
+		for (int i = 0; i < 100; i++)
+		{
+			audioPlayer.volume = i/100;
+			yield return new WaitForSeconds(0.015f);
+		}
 	}
 
 	public void Restart (bool start = false) 
@@ -169,6 +229,9 @@ public class LayerMovement : MonoBehaviour
 			inactive.Add(child);
 
 		ActivateLevel();
+
+		audioPlayer.clip = songs[GameManager.currentLevel];
+		audioPlayer.Play();
 	}
 
 	void ActivateLevel ()

@@ -9,24 +9,31 @@ public class GameManager : MonoBehaviour
     public GameObject canvas;
 	public GameObject finishPanel;
 	public GameObject player;
-	public Animator doublePointsAnim;
+	public Animator doubleWaterAnim;
 	public Animator extraLifeAnim;
 	public Text distanceText;
 	public Text gameOverScore;
 	public Text gameOverBest;
 	public float score;
-	public bool doublePointsActive;
 	public bool extraLifeActive;
+	public SpriteRenderer[] doubleWaterRens;
+	public Color doubleWaterColor;
+	public Color standardWaterColor;
+	public Image waterBar;
 
 	public static bool paused;
 	public static bool gameStarted;
 	public static bool gameOver;
 	public static int currentLevel;
 	public static float distance;
-		
+	public static bool doubleWaterActive;
+
 	void Awake ()
 	{
-
+		PlayerPrefs.SetInt("ExtraLives", 10);
+		PlayerPrefs.SetInt("DoubleWater", 10);
+		
+		//AppAdvisory.Ads.AdsManager.instance.ShowBanner();
 	}
 
 	void GameOver ()
@@ -37,7 +44,6 @@ public class GameManager : MonoBehaviour
 		paused = true;
 		gameStarted = false;
 		player.GetComponent<Animator>().SetBool ("Dead", true);
-		//		player.GetComponent<Animator>().SetBool("GameOver", true);
 		StartCoroutine("Wait");
 	}
 	public void Pause ()
@@ -46,7 +52,7 @@ public class GameManager : MonoBehaviour
 		paused = !paused;
 	}
 
-	public void StartGame()
+	public void StartGame(bool extraLife = false)
 	{
 		if (player.GetComponent<Animator>().GetBool("Dead") == true)
 		{
@@ -65,22 +71,30 @@ public class GameManager : MonoBehaviour
 		gameStarted = true;
 		gameOver = false;
 		paused = false;
-		doublePointsActive = false;
 		extraLifeActive = false;
+		doubleWaterActive = false;
 
 		hydrationBar.StartHydrationBar();
 		layerMovement.Restart(true);
 
-		//if (PlayerPrefs.GetInt("DoublePoints") > 0)
-		//	StartCoroutine(DoublePointsBooster());
+
+		foreach (SpriteRenderer water in doubleWaterRens)
+		{
+			water.color = standardWaterColor;
+		}
+
+		waterBar.color = standardWaterColor;
+
+		if (PlayerPrefs.GetInt("DoubleWater") > 0)
+			StartCoroutine(DoubleWaterBooster());
 
 	}
 
-	IEnumerator DoublePointsBooster ()
+	IEnumerator DoubleWaterBooster ()
 	{
-		doublePointsAnim.SetBool("IsActive", true);
+		doubleWaterAnim.SetBool("IsActive", true);
 		yield return new WaitForSeconds(3f);
-		doublePointsAnim.SetBool("IsActive", false);
+		doubleWaterAnim.SetBool("IsActive", false);
 	}
 
 	IEnumerator ExtraLivesBooster()
@@ -90,15 +104,21 @@ public class GameManager : MonoBehaviour
 		extraLifeAnim.SetBool("IsActive", false);
 	}
 
-	public void DoublePoints ()
+	public void DoubleWater ()
 	{
-		if (!doublePointsActive)
+		if (!doubleWaterActive)
 		{
-			doublePointsActive = true;
-			doublePointsAnim.SetBool("IsActive", false);
+			doubleWaterActive = true;
+			doubleWaterAnim.SetBool("IsActive", false);
 
-			int temp = PlayerPrefs.GetInt("DoublePoints");
-			PlayerPrefs.SetInt("DoublePoints", temp - 1);
+			foreach(SpriteRenderer water in doubleWaterRens)
+			{
+				water.color = doubleWaterColor;
+			}
+			waterBar.color = doubleWaterColor;
+
+			int temp = PlayerPrefs.GetInt("DoubleWater");
+			PlayerPrefs.SetInt("DoubleWater", temp - 1);
 			PlayerPrefs.Save();
 		}
     }
@@ -123,6 +143,7 @@ public class GameManager : MonoBehaviour
 			paused = false;
 
 			hydrationBar.StartHydrationBar();
+			layerMovement.RestartOnLevel();
 		}
 	}
 
@@ -146,6 +167,8 @@ public class GameManager : MonoBehaviour
         else
             gameOverBest.text = PlayerPrefs.GetInt("Highscore").ToString();
 
+		PlayerPrefs.Save();
+
 		paused = false;
 	}
 
@@ -164,6 +187,8 @@ public class GameManager : MonoBehaviour
 		else
 			gameOverBest.text = PlayerPrefs.GetInt("Highscore").ToString() + "m";
 
+
+		PlayerPrefs.Save();
 		paused = false;
 		gameStarted = false;
 
@@ -178,7 +203,7 @@ public class GameManager : MonoBehaviour
 			
 			distance += 0.02f * layerMovement.speedMultiplier;
 
-			if (doublePointsActive)
+			if (doubleWaterActive)
 				score = distance * 2;
 			else
 				score = distance;

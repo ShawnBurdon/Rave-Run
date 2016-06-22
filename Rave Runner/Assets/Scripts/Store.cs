@@ -1,23 +1,18 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
 using System.Collections;
-using System.Collections.Generic;
 
 public class Store : MonoBehaviour
 {
-	
-	void Awake ()
-	{
-	
-	}
 
-	public void DoublePointsBooster ()
+	public IAP iap;
+
+	public void DoubleWater ()
 	{
-		PlayerPrefs.SetInt("DoublePoints", PlayerPrefs.GetInt("DoublePoints") + 1);
+		iap.BuyConsumable(IAP.Consumable.DoubleWater);
 	}
 	
-	public void ExtraLifeBooster ()
+	public void ExtraLives ()
 	{
-		PlayerPrefs.SetInt("ExtraLives", PlayerPrefs.GetInt("ExtraLives") + 1);
+		iap.BuyConsumable(IAP.Consumable.ExtraLife);
 	}
 }
