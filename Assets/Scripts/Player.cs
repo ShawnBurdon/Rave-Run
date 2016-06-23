@@ -47,12 +47,10 @@ public class Player : MonoBehaviour
             {
 				if (spring || changingLevels)
 				{
-                    Debug.Log("Here");
 					audioSource.PlayOneShot(audioClips[5]);
 				}
 				else if (jumping)
 				{
-                    Debug.Log("Here3");
 					audioSource.PlayOneShot(audioClips[5]);
 				}
 

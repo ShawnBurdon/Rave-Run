@@ -19,14 +19,19 @@ public class HydrationBar : MonoBehaviour
 
 	void Update ()
 	{
-		if (waterBar.fillAmount <= 0f)
+		if (GameManager.gameStarted && !GameManager.paused)
 		{
-			GameManager.gameOver = true;//REMOVE FOR DEATH
+			if (waterBar.fillAmount <= 0f)
+			{
+				GameManager.gameOver = true;//REMOVE FOR DEATH
+			}
+
+			if (!GameManager.doubleWaterActive)
+				waterBar.fillAmount -= 0.01f / 1f * Time.deltaTime;
+			else
+				waterBar.fillAmount -= 0.005f / 1f * Time.deltaTime;
 		}
-
-        waterBar.fillAmount -= 0.1f/1f * Time.deltaTime;
-
-    }
+	}
 
  //   IEnumerator WaterDepletion ()
 	//{

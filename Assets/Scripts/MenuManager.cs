@@ -8,6 +8,8 @@ public class MenuManager : MonoBehaviour
     public Animator anim;
     public GameObject[] music;
     public GameObject[] sound;
+	public AudioSource musicSource;
+	public AudioSource soundSource;
 
     bool musicEnabled = true;
     bool soundEnabled = true;
@@ -41,12 +43,17 @@ public class MenuManager : MonoBehaviour
 
         if (musicEnabled)
         {
+			musicSource.enabled = true;
+
             music[0].SetActive(true);
             music[1].SetActive(false);
+			musicSource.Play();
         }
         else
         {
-            music[0].SetActive(false);
+			musicSource.enabled = false;
+
+			music[0].SetActive(false);
             music[1].SetActive(true);
         }
     }
@@ -57,12 +64,16 @@ public class MenuManager : MonoBehaviour
 
         if (soundEnabled)
         {
-            sound[0].SetActive(true);
+			soundSource.enabled = true;
+
+			sound[0].SetActive(true);
             sound[1].SetActive(false);
         }
         else
         {
-            sound[0].SetActive(false);
+			soundSource.enabled = false;
+
+			sound[0].SetActive(false);
             sound[1].SetActive(true);
         }
     }
