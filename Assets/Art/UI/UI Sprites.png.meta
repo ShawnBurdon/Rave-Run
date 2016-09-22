@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: b7e1de3fb4341384b8517c7e3c34550f
-timeCreated: 1451881474
+timeCreated: 1474573053
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -52,6 +52,9 @@ TextureImporter:
     21300090: Btn Sound pressed
     21300092: Btn Options pressed
     21300094: Btn Replay pressed
+    21300096: Pickup TieDye
+    21300098: Pickup Handstand
+    21300100: Pickup SlowMo
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -65,7 +68,7 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
@@ -85,11 +88,12 @@ TextureImporter:
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
+  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
@@ -105,8 +109,13 @@ TextureImporter:
         width: 1136
         height: 48
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -568, y: 24}
+        - {x: -568, y: -24}
+        - {x: 568, y: -24}
+        - {x: 568, y: 24}
     - name: Img Options
       rect:
         serializedVersion: 2
@@ -115,8 +124,13 @@ TextureImporter:
         width: 1136
         height: 48
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -568, y: 24}
+        - {x: -568, y: -24}
+        - {x: 568, y: -24}
+        - {x: 568, y: 24}
     - name: Img Game Over
       rect:
         serializedVersion: 2
@@ -125,8 +139,13 @@ TextureImporter:
         width: 1136
         height: 56
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -568, y: 28}
+        - {x: -568, y: -28}
+        - {x: 568, y: -28}
+        - {x: 568, y: 28}
     - name: Img Name
       rect:
         serializedVersion: 2
@@ -135,8 +154,36 @@ TextureImporter:
         width: 648
         height: 136
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: -61}
+        - {x: 9, y: -48}
+        - {x: 10, y: -38}
+        - {x: 14, y: -61}
+        - {x: 21, y: -68}
+        - {x: 60, y: -68}
+        - {x: 69, y: -56}
+        - {x: 102, y: -68}
+        - {x: 242, y: -68}
+        - {x: 262, y: 15}
+        - {x: 275, y: -60}
+        - {x: 281, y: -68}
+        - {x: 324, y: -68}
+        - {x: 324, y: 42}
+        - {x: 322, y: 46}
+        - {x: 289, y: 68}
+        - {x: 154, y: 68}
+        - {x: 139, y: 63}
+        - {x: 118, y: 68}
+        - {x: -287, y: 68}
+        - {x: -313, y: 52}
+        - {x: -324, y: 40}
+        - {x: -324, y: -68}
+        - {x: -274, y: -68}
+        - {x: -263, y: -44}
+        - {x: -235, y: -68}
+        - {x: -9, y: -68}
     - name: Img Hydration Frame
       rect:
         serializedVersion: 2
@@ -145,8 +192,18 @@ TextureImporter:
         width: 272
         height: 44
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -136, y: 22}
+        - {x: -136, y: -22}
+        - {x: 133, y: -22}
+        - {x: 136, y: -21}
+        - {x: 136, y: 22}
+      - - {x: -125, y: 16}
+        - {x: 85, y: 16}
+        - {x: 85, y: -14}
+        - {x: -126, y: -13}
     - name: Img X
       rect:
         serializedVersion: 2
@@ -155,8 +212,13 @@ TextureImporter:
         width: 42
         height: 42
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 21}
+        - {x: -21, y: -21}
+        - {x: 21, y: -21}
+        - {x: 21, y: 21}
     - name: Img Checkmark
       rect:
         serializedVersion: 2
@@ -165,8 +227,16 @@ TextureImporter:
         width: 55
         height: 43
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 21.5}
+        - {x: -27.5, y: 6.5}
+        - {x: -27.5, y: -16.5}
+        - {x: -17.5, y: -21.5}
+        - {x: 6.5, y: -21.5}
+        - {x: 27.5, y: 7.5}
+        - {x: 27.5, y: 21.5}
     - name: Btn Pause
       rect:
         serializedVersion: 2
@@ -175,8 +245,17 @@ TextureImporter:
         width: 40
         height: 47
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -23.5}
+        - {x: 0, y: 23.5}
+        - {x: -20, y: 23.5}
+        - {x: -20, y: -23.5}
+      - - {x: 0, y: 23.5}
+        - {x: 0, y: -23.5}
+        - {x: 20, y: -23.5}
+        - {x: 20, y: 23.5}
     - name: Btn Continue
       rect:
         serializedVersion: 2
@@ -185,8 +264,17 @@ TextureImporter:
         width: 300
         height: 70
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -142, y: 35}
+        - {x: -150, y: 27}
+        - {x: -150, y: -27}
+        - {x: -142, y: -35}
+        - {x: 144, y: -35}
+        - {x: 150, y: -29}
+        - {x: 150, y: 29}
+        - {x: 144, y: 35}
     - name: Btn Menu
       rect:
         serializedVersion: 2
@@ -195,8 +283,17 @@ TextureImporter:
         width: 300
         height: 70
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -147, y: 35}
+        - {x: -150, y: 34}
+        - {x: -150, y: -32}
+        - {x: -149, y: -35}
+        - {x: 143, y: -35}
+        - {x: 150, y: -28}
+        - {x: 150, y: 28}
+        - {x: 143, y: 35}
     - name: Btn Play
       rect:
         serializedVersion: 2
@@ -205,8 +302,17 @@ TextureImporter:
         width: 300
         height: 70
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -147, y: 35}
+        - {x: -150, y: 34}
+        - {x: -150, y: -32}
+        - {x: -149, y: -35}
+        - {x: 143, y: -35}
+        - {x: 150, y: -28}
+        - {x: 150, y: 28}
+        - {x: 143, y: 35}
     - name: Btn Back
       rect:
         serializedVersion: 2
@@ -215,8 +321,17 @@ TextureImporter:
         width: 300
         height: 70
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -147, y: 35}
+        - {x: -150, y: 34}
+        - {x: -150, y: -32}
+        - {x: -149, y: -35}
+        - {x: 143, y: -35}
+        - {x: 150, y: -28}
+        - {x: 150, y: 28}
+        - {x: 143, y: 35}
     - name: Btn Sound
       rect:
         serializedVersion: 2
@@ -225,8 +340,17 @@ TextureImporter:
         width: 300
         height: 70
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -147, y: 35}
+        - {x: -150, y: 34}
+        - {x: -150, y: -32}
+        - {x: -149, y: -35}
+        - {x: 143, y: -35}
+        - {x: 150, y: -28}
+        - {x: 150, y: 28}
+        - {x: 143, y: 35}
     - name: Btn Options
       rect:
         serializedVersion: 2
@@ -235,8 +359,17 @@ TextureImporter:
         width: 300
         height: 70
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -147, y: 35}
+        - {x: -150, y: 34}
+        - {x: -150, y: -32}
+        - {x: -149, y: -35}
+        - {x: 143, y: -35}
+        - {x: 150, y: -28}
+        - {x: 150, y: 28}
+        - {x: 143, y: 35}
     - name: Btn Replay
       rect:
         serializedVersion: 2
@@ -245,8 +378,17 @@ TextureImporter:
         width: 300
         height: 70
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -147, y: 35}
+        - {x: -150, y: 34}
+        - {x: -150, y: -32}
+        - {x: -149, y: -35}
+        - {x: 143, y: -35}
+        - {x: 150, y: -28}
+        - {x: 150, y: 28}
+        - {x: 143, y: 35}
     - name: Btn Quit
       rect:
         serializedVersion: 2
@@ -255,8 +397,17 @@ TextureImporter:
         width: 300
         height: 70
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -147, y: 35}
+        - {x: -150, y: 34}
+        - {x: -150, y: -32}
+        - {x: -149, y: -35}
+        - {x: 143, y: -35}
+        - {x: 150, y: -28}
+        - {x: 150, y: 28}
+        - {x: 143, y: 35}
     - name: Btn Music
       rect:
         serializedVersion: 2
@@ -265,8 +416,17 @@ TextureImporter:
         width: 300
         height: 70
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -147, y: 35}
+        - {x: -150, y: 34}
+        - {x: -150, y: -32}
+        - {x: -149, y: -35}
+        - {x: 143, y: -35}
+        - {x: 150, y: -28}
+        - {x: 150, y: 28}
+        - {x: 143, y: 35}
     - name: Btn Share
       rect:
         serializedVersion: 2
@@ -275,8 +435,17 @@ TextureImporter:
         width: 300
         height: 70
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -147, y: 35}
+        - {x: -150, y: 34}
+        - {x: -150, y: -32}
+        - {x: -149, y: -35}
+        - {x: 143, y: -35}
+        - {x: 150, y: -28}
+        - {x: 150, y: 28}
+        - {x: 143, y: 35}
     - name: Img Hydration Back
       rect:
         serializedVersion: 2
@@ -285,8 +454,14 @@ TextureImporter:
         width: 226
         height: 38
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -113, y: 19}
+        - {x: -113, y: -18}
+        - {x: -112, y: -19}
+        - {x: 113, y: -19}
+        - {x: 113, y: 19}
     - name: Img Store
       rect:
         serializedVersion: 2
@@ -295,8 +470,13 @@ TextureImporter:
         width: 1136
         height: 48
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -568, y: 24}
+        - {x: -568, y: -24}
+        - {x: 568, y: -24}
+        - {x: 568, y: 24}
     - name: Img Boosters
       rect:
         serializedVersion: 2
@@ -305,8 +485,13 @@ TextureImporter:
         width: 1136
         height: 48
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -568, y: 24}
+        - {x: -568, y: -24}
+        - {x: 568, y: -24}
+        - {x: 568, y: 24}
     - name: Img Music
       rect:
         serializedVersion: 2
@@ -315,8 +500,13 @@ TextureImporter:
         width: 1136
         height: 48
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -568, y: 24}
+        - {x: -568, y: -24}
+        - {x: 568, y: -24}
+        - {x: 568, y: 24}
     - name: Btn Boosters
       rect:
         serializedVersion: 2
@@ -325,8 +515,17 @@ TextureImporter:
         width: 300
         height: 70
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -147, y: 35}
+        - {x: -150, y: 34}
+        - {x: -150, y: -32}
+        - {x: -149, y: -35}
+        - {x: 143, y: -35}
+        - {x: 150, y: -28}
+        - {x: 150, y: 28}
+        - {x: 143, y: 35}
     - name: Btn Exit
       rect:
         serializedVersion: 2
@@ -335,8 +534,17 @@ TextureImporter:
         width: 300
         height: 70
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -147, y: 35}
+        - {x: -150, y: 34}
+        - {x: -150, y: -32}
+        - {x: -149, y: -35}
+        - {x: 143, y: -35}
+        - {x: 150, y: -28}
+        - {x: 150, y: 28}
+        - {x: 143, y: 35}
     - name: Btn Store
       rect:
         serializedVersion: 2
@@ -345,8 +553,17 @@ TextureImporter:
         width: 300
         height: 70
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -147, y: 35}
+        - {x: -150, y: 34}
+        - {x: -150, y: -32}
+        - {x: -149, y: -35}
+        - {x: 143, y: -35}
+        - {x: 150, y: -28}
+        - {x: 150, y: 28}
+        - {x: 143, y: 35}
     - name: Btn Store Double
       rect:
         serializedVersion: 2
@@ -355,8 +572,15 @@ TextureImporter:
         width: 630
         height: 120
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -315, y: 60}
+        - {x: -315, y: -60}
+        - {x: 308, y: -60}
+        - {x: 315, y: -53}
+        - {x: 315, y: 53}
+        - {x: 308, y: 60}
     - name: Btn Store Life
       rect:
         serializedVersion: 2
@@ -365,8 +589,15 @@ TextureImporter:
         width: 630
         height: 120
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -315, y: 60}
+        - {x: -315, y: -60}
+        - {x: 308, y: -60}
+        - {x: 315, y: -53}
+        - {x: 315, y: 53}
+        - {x: 308, y: 60}
     - name: Btn Quit pressed
       rect:
         serializedVersion: 2
@@ -375,8 +606,17 @@ TextureImporter:
         width: 300
         height: 70
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -147, y: 35}
+        - {x: -150, y: 34}
+        - {x: -150, y: -32}
+        - {x: -149, y: -35}
+        - {x: 143, y: -35}
+        - {x: 150, y: -28}
+        - {x: 150, y: 28}
+        - {x: 143, y: 35}
     - name: Btn Life
       rect:
         serializedVersion: 2
@@ -385,8 +625,15 @@ TextureImporter:
         width: 120
         height: 120
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60, y: 60}
+        - {x: -60, y: -60}
+        - {x: 56, y: -60}
+        - {x: 60, y: -54}
+        - {x: 60, y: 53}
+        - {x: 53, y: 60}
     - name: Btn Double
       rect:
         serializedVersion: 2
@@ -395,8 +642,16 @@ TextureImporter:
         width: 120
         height: 120
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54, y: 60}
+        - {x: -60, y: 55}
+        - {x: -60, y: -60}
+        - {x: 57, y: -60}
+        - {x: 60, y: -56}
+        - {x: 60, y: 53}
+        - {x: 53, y: 60}
     - name: Btn Double pressed
       rect:
         serializedVersion: 2
@@ -405,8 +660,16 @@ TextureImporter:
         width: 120
         height: 120
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54, y: 60}
+        - {x: -60, y: 55}
+        - {x: -60, y: -60}
+        - {x: 57, y: -60}
+        - {x: 60, y: -56}
+        - {x: 60, y: 53}
+        - {x: 53, y: 60}
     - name: Btn Life pressed
       rect:
         serializedVersion: 2
@@ -415,8 +678,15 @@ TextureImporter:
         width: 120
         height: 120
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60, y: 60}
+        - {x: -60, y: -60}
+        - {x: 56, y: -60}
+        - {x: 60, y: -54}
+        - {x: 60, y: 53}
+        - {x: 53, y: 60}
     - name: Btn Exit pressed
       rect:
         serializedVersion: 2
@@ -425,8 +695,17 @@ TextureImporter:
         width: 300
         height: 70
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -147, y: 35}
+        - {x: -150, y: 34}
+        - {x: -150, y: -32}
+        - {x: -149, y: -35}
+        - {x: 143, y: -35}
+        - {x: 150, y: -28}
+        - {x: 150, y: 28}
+        - {x: 143, y: 35}
     - name: Btn Boosters pressed
       rect:
         serializedVersion: 2
@@ -435,8 +714,17 @@ TextureImporter:
         width: 300
         height: 70
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -147, y: 35}
+        - {x: -150, y: 34}
+        - {x: -150, y: -32}
+        - {x: -149, y: -35}
+        - {x: 143, y: -35}
+        - {x: 150, y: -28}
+        - {x: 150, y: 28}
+        - {x: 143, y: 35}
     - name: Btn Store Double pressed
       rect:
         serializedVersion: 2
@@ -445,8 +733,15 @@ TextureImporter:
         width: 630
         height: 120
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -315, y: 60}
+        - {x: -315, y: -60}
+        - {x: 308, y: -60}
+        - {x: 315, y: -53}
+        - {x: 315, y: 53}
+        - {x: 308, y: 60}
     - name: Btn Store Life pressed
       rect:
         serializedVersion: 2
@@ -455,8 +750,15 @@ TextureImporter:
         width: 630
         height: 120
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -315, y: 60}
+        - {x: -315, y: -60}
+        - {x: 308, y: -60}
+        - {x: 315, y: -53}
+        - {x: 315, y: 53}
+        - {x: 308, y: 60}
     - name: Btn Play pressed
       rect:
         serializedVersion: 2
@@ -465,8 +767,17 @@ TextureImporter:
         width: 300
         height: 70
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -147, y: 35}
+        - {x: -150, y: 34}
+        - {x: -150, y: -32}
+        - {x: -149, y: -35}
+        - {x: 143, y: -35}
+        - {x: 150, y: -28}
+        - {x: 150, y: 28}
+        - {x: 143, y: 35}
     - name: Btn Music pressed
       rect:
         serializedVersion: 2
@@ -475,8 +786,17 @@ TextureImporter:
         width: 300
         height: 70
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -147, y: 35}
+        - {x: -150, y: 34}
+        - {x: -150, y: -32}
+        - {x: -149, y: -35}
+        - {x: 143, y: -35}
+        - {x: 150, y: -28}
+        - {x: 150, y: 28}
+        - {x: 143, y: 35}
     - name: Btn Menu pressed
       rect:
         serializedVersion: 2
@@ -485,8 +805,17 @@ TextureImporter:
         width: 300
         height: 70
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -147, y: 35}
+        - {x: -150, y: 34}
+        - {x: -150, y: -32}
+        - {x: -149, y: -35}
+        - {x: 143, y: -35}
+        - {x: 150, y: -28}
+        - {x: 150, y: 28}
+        - {x: 143, y: 35}
     - name: Btn Continue pressed
       rect:
         serializedVersion: 2
@@ -495,8 +824,17 @@ TextureImporter:
         width: 300
         height: 70
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -147, y: 35}
+        - {x: -150, y: 34}
+        - {x: -150, y: -32}
+        - {x: -149, y: -35}
+        - {x: 143, y: -35}
+        - {x: 150, y: -28}
+        - {x: 150, y: 28}
+        - {x: 143, y: 35}
     - name: Btn Back pressed
       rect:
         serializedVersion: 2
@@ -505,8 +843,17 @@ TextureImporter:
         width: 300
         height: 70
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -147, y: 35}
+        - {x: -150, y: 34}
+        - {x: -150, y: -32}
+        - {x: -149, y: -35}
+        - {x: 143, y: -35}
+        - {x: 150, y: -28}
+        - {x: 150, y: 28}
+        - {x: 143, y: 35}
     - name: Btn Share pressed
       rect:
         serializedVersion: 2
@@ -515,8 +862,17 @@ TextureImporter:
         width: 300
         height: 70
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -147, y: 35}
+        - {x: -150, y: 34}
+        - {x: -150, y: -32}
+        - {x: -149, y: -35}
+        - {x: 143, y: -35}
+        - {x: 150, y: -28}
+        - {x: 150, y: 28}
+        - {x: 143, y: 35}
     - name: Btn Sound pressed
       rect:
         serializedVersion: 2
@@ -525,8 +881,17 @@ TextureImporter:
         width: 300
         height: 70
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -147, y: 35}
+        - {x: -150, y: 34}
+        - {x: -150, y: -32}
+        - {x: -149, y: -35}
+        - {x: 143, y: -35}
+        - {x: 150, y: -28}
+        - {x: 150, y: 28}
+        - {x: 143, y: 35}
     - name: Btn Options pressed
       rect:
         serializedVersion: 2
@@ -535,8 +900,17 @@ TextureImporter:
         width: 300
         height: 70
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -147, y: 35}
+        - {x: -150, y: 34}
+        - {x: -150, y: -32}
+        - {x: -149, y: -35}
+        - {x: 143, y: -35}
+        - {x: 150, y: -28}
+        - {x: 150, y: 28}
+        - {x: 143, y: 35}
     - name: Btn Replay pressed
       rect:
         serializedVersion: 2
@@ -545,8 +919,17 @@ TextureImporter:
         width: 300
         height: 70
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -147, y: 35}
+        - {x: -150, y: 34}
+        - {x: -150, y: -32}
+        - {x: -149, y: -35}
+        - {x: 143, y: -35}
+        - {x: 150, y: -28}
+        - {x: 150, y: 28}
+        - {x: 143, y: 35}
     - name: Btn Store pressed
       rect:
         serializedVersion: 2
@@ -555,8 +938,63 @@ TextureImporter:
         width: 300
         height: 70
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -147, y: 35}
+        - {x: -150, y: 34}
+        - {x: -150, y: -32}
+        - {x: -149, y: -35}
+        - {x: 143, y: -35}
+        - {x: 150, y: -28}
+        - {x: 150, y: 28}
+        - {x: 143, y: 35}
+    - name: Pickup TieDye
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 391
+        width: 28
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Pickup Handstand
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 391
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 29}
+        - {x: -29, y: -26}
+        - {x: -20, y: -29}
+        - {x: 24, y: -29}
+        - {x: 29, y: -27}
+        - {x: 29, y: 29}
+    - name: Pickup SlowMo
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 398
+        width: 58
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 25.5}
+        - {x: -29, y: -10.5}
+        - {x: -29, y: -25.5}
+        - {x: 29, y: -25.5}
+        - {x: 29, y: -10.5}
+        - {x: 8, y: 25.5}
+    outline: []
   spritePackingTag: 
   userData: 
   assetBundleName: 
