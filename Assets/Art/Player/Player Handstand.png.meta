@@ -1,0 +1,712 @@
+fileFormatVersion: 2
+guid: 32c020926d095884f98eac8c7ef8da2d
+timeCreated: 1474694425
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Player-HandRun_0
+    21300002: Player-HandRun_1
+    21300004: Player-HandRun_2
+    21300006: Player-HandRun_3
+    21300008: Player-HandRun_4
+    21300010: Player-HandRun_5
+    21300012: Player-HandRun_6
+    21300014: Player-HandRun_7
+    21300016: Player-HandRun_8
+    21300018: Player-HandRun_9
+    21300020: Player-HandRun_10
+    21300022: Player-HandRun_11
+    21300024: Player-HandRun_12
+    21300026: Player-HandRun_13
+    21300028: Player-HandRun_14
+    21300030: Player-HandRun_15
+    21300032: Player HandJumpDown_0
+    21300034: Player HandJumpDown_1
+    21300036: Player HandJumpDown_2
+    21300038: Player HandJumpDown_3
+    21300040: Player HandJumpDown_4
+    21300042: Player HandJumpDown_5
+    21300044: Player HandJumpDown_6
+    21300046: Player HandJumpDown_7
+    21300048: Player HandJumpDown_8
+    21300050: Player HandJumpDown_9
+    21300052: Player HandJumpDown_10
+    21300054: Player HandJumpDown_11
+    21300056: Player HandJumpDown_12
+    21300058: Player HandJumpUp_0
+    21300060: Player Handstand_30
+    21300062: Player Handstand_31
+    21300064: Player Handstand_32
+    21300066: Player Handstand_33
+    21300068: Player Handstand_34
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Player-HandRun_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 625
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 113}
+        - {x: -20.5, y: 113}
+        - {x: -20.5, y: 0}
+        - {x: 24.5, y: 0}
+        - {x: 36.5, y: 14}
+        - {x: 36.5, y: 81}
+        - {x: 22.5, y: 104}
+    - name: Player-HandRun_1
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 625
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 113}
+        - {x: -17.5, y: 112}
+        - {x: -27.5, y: 27}
+        - {x: -27.5, y: 0}
+        - {x: 31.5, y: 0}
+        - {x: 36.5, y: 2}
+        - {x: 36.5, y: 112}
+        - {x: 31.5, y: 113}
+    - name: Player-HandRun_2
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 625
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.5, y: 39}
+        - {x: 14.5, y: 56}
+        - {x: 22.5, y: 100}
+        - {x: 15.5, y: 111}
+        - {x: 13.5, y: 113}
+        - {x: -14.5, y: 113}
+        - {x: -16.5, y: 112}
+        - {x: -33.5, y: 32}
+        - {x: -33.5, y: 9}
+        - {x: -27.5, y: 2}
+        - {x: 15.5, y: 2}
+        - {x: 36.5, y: 21}
+        - {x: 36.5, y: 32}
+    - name: Player-HandRun_3
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 625
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: 114}
+        - {x: -21.5, y: 114}
+        - {x: -36.5, y: 20}
+        - {x: -36.5, y: 9}
+        - {x: -31.5, y: 3}
+        - {x: 19.5, y: 3}
+        - {x: 36.5, y: 13}
+        - {x: 36.5, y: 70}
+        - {x: 19.5, y: 113}
+    - name: Player-HandRun_4
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 625
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 17}
+        - {x: 36.5, y: 26}
+        - {x: 36.5, y: 28}
+        - {x: 35.5, y: 31}
+        - {x: 20.5, y: 114}
+        - {x: -9.5, y: 114}
+        - {x: -11.5, y: 112}
+        - {x: -30.5, y: 38}
+        - {x: -30.5, y: 5}
+        - {x: -28.5, y: 3}
+        - {x: 19.5, y: 3}
+        - {x: 25.5, y: 5}
+        - {x: 29.5, y: 16}
+    - name: Player-HandRun_5
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 625
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.5, y: 105}
+        - {x: 9.5, y: 114}
+        - {x: -8.5, y: 114}
+        - {x: -15.5, y: 112}
+        - {x: -23.5, y: 44}
+        - {x: -23.5, y: 3}
+        - {x: -3.5, y: 1}
+        - {x: -1.5, y: 6}
+        - {x: -3.5, y: 12}
+        - {x: -0.5, y: 7}
+        - {x: 7.5, y: 0}
+        - {x: 21.5, y: 0}
+        - {x: 31.5, y: 1}
+        - {x: 36.5, y: 8}
+        - {x: 36.5, y: 66}
+    - name: Player-HandRun_6
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 625
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 113}
+        - {x: -20.5, y: 94}
+        - {x: -20.5, y: 10}
+        - {x: -12.5, y: 0}
+        - {x: 26.5, y: 0}
+        - {x: 36.5, y: 13}
+        - {x: 36.5, y: 56}
+        - {x: 15.5, y: 113}
+    - name: Player-HandRun_7
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 469
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 113}
+        - {x: -20.5, y: 113}
+        - {x: -20.5, y: 0}
+        - {x: 9.5, y: 0}
+        - {x: 36.5, y: 9}
+        - {x: 36.5, y: 39}
+        - {x: 29.5, y: 79}
+    - name: Player-HandRun_8
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 469
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 6}
+        - {x: -2.5, y: 8}
+        - {x: 1.5, y: 4}
+        - {x: 3.5, y: 4}
+        - {x: 36.5, y: 14}
+        - {x: 36.5, y: 58}
+        - {x: 24.5, y: 105}
+        - {x: 8.5, y: 113}
+        - {x: -17.5, y: 113}
+        - {x: -20.5, y: 103}
+        - {x: -20.5, y: 0}
+        - {x: 0.5, y: 0}
+        - {x: 0.5, y: 4}
+        - {x: -1.5, y: 6}
+    - name: Player-HandRun_9
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 469
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 113}
+        - {x: -24.5, y: 76}
+        - {x: -24.5, y: 0}
+        - {x: 23.5, y: 0}
+        - {x: 36.5, y: 15}
+        - {x: 36.5, y: 60}
+        - {x: 21.5, y: 113}
+    - name: Player-HandRun_10
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 469
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 113}
+        - {x: -14.5, y: 107}
+        - {x: -29.5, y: 60}
+        - {x: -29.5, y: 1}
+        - {x: 36.5, y: 1}
+        - {x: 36.5, y: 59}
+        - {x: 17.5, y: 113}
+    - name: Player-HandRun_11
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 469
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 114}
+        - {x: -33.5, y: 50}
+        - {x: -33.5, y: 4}
+        - {x: 36.5, y: 4}
+        - {x: 36.5, y: 113}
+        - {x: 30.5, y: 114}
+    - name: Player-HandRun_12
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 469
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 114}
+        - {x: -28.5, y: 42}
+        - {x: -28.5, y: 4}
+        - {x: 36.5, y: 4}
+        - {x: 36.5, y: 60}
+        - {x: 15.5, y: 114}
+    - name: Player-HandRun_13
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 469
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.5, y: 97}
+        - {x: 35.5, y: 100}
+        - {x: 13.5, y: 114}
+        - {x: -11.5, y: 114}
+        - {x: -13.5, y: 109}
+        - {x: -21.5, y: 83}
+        - {x: -23.5, y: 63}
+        - {x: -23.5, y: 1}
+        - {x: -19.5, y: 0}
+        - {x: 20.5, y: 0}
+        - {x: 23.5, y: 2}
+        - {x: 25.5, y: 10}
+        - {x: 23.5, y: 12}
+        - {x: 36.5, y: 19}
+    - name: Player-HandRun_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 313
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 113}
+        - {x: -20.5, y: 6}
+        - {x: -11.5, y: 0}
+        - {x: 21.5, y: 0}
+        - {x: 36.5, y: 14}
+        - {x: 36.5, y: 62}
+        - {x: 17.5, y: 113}
+    - name: Player-HandRun_15
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 313
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: 113}
+        - {x: -18.5, y: 113}
+        - {x: -20.5, y: 92}
+        - {x: -20.5, y: 25}
+        - {x: -18.5, y: 0}
+        - {x: 7.5, y: 0}
+        - {x: 36.5, y: 10}
+        - {x: 36.5, y: 58}
+    - name: Player HandJumpDown_0
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 313
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: 54}
+        - {x: 9.5, y: 96}
+        - {x: 3.5, y: 112}
+        - {x: -0.5, y: 113}
+        - {x: -14.5, y: 113}
+        - {x: -31.5, y: 110}
+        - {x: -31.5, y: 1}
+        - {x: -28.5, y: 0}
+        - {x: -4.5, y: 0}
+        - {x: 31.5, y: 17}
+        - {x: 31.5, y: 31}
+        - {x: 24.5, y: 44}
+    - name: Player HandJumpDown_1
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 313
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.5, y: 44}
+        - {x: 10.5, y: 54}
+        - {x: 8.5, y: 55}
+        - {x: 9.5, y: 97}
+        - {x: 9.5, y: 101}
+        - {x: -0.5, y: 113}
+        - {x: -18.5, y: 113}
+        - {x: -31.5, y: 107}
+        - {x: -31.5, y: 0}
+        - {x: -12.5, y: 0}
+        - {x: -9.5, y: 4}
+        - {x: 31.5, y: 20}
+        - {x: 31.5, y: 29}
+    - name: Player HandJumpDown_2
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 313
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: 113}
+        - {x: -30.5, y: 113}
+        - {x: -30.5, y: 1}
+        - {x: -29.5, y: 0}
+        - {x: -8.5, y: 0}
+        - {x: 25.5, y: 12}
+        - {x: 31.5, y: 17}
+        - {x: 31.5, y: 56}
+    - name: Player HandJumpDown_3
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 313
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 114}
+        - {x: -30.5, y: 47}
+        - {x: -25.5, y: 0}
+        - {x: -6.5, y: 0}
+        - {x: 31.5, y: 15}
+        - {x: 31.5, y: 50}
+        - {x: 11.5, y: 114}
+    - name: Player HandJumpDown_4
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 313
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 114}
+        - {x: -29.5, y: 11}
+        - {x: -23.5, y: 0}
+        - {x: -6.5, y: 0}
+        - {x: 31.5, y: 12}
+        - {x: 31.5, y: 54}
+        - {x: 14.5, y: 114}
+    - name: Player HandJumpDown_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 157
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: 114}
+        - {x: -24.5, y: 114}
+        - {x: -27.5, y: 112}
+        - {x: -27.5, y: 48}
+        - {x: -18.5, y: 0}
+        - {x: -4.5, y: 0}
+        - {x: 31.5, y: 13}
+        - {x: 31.5, y: 60}
+        - {x: 16.5, y: 105}
+    - name: Player HandJumpDown_6
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 157
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.5, y: 114}
+        - {x: -24.5, y: 114}
+        - {x: -26.5, y: 113}
+        - {x: -26.5, y: 49}
+        - {x: -15.5, y: 0}
+        - {x: 1.5, y: 0}
+        - {x: 31.5, y: 17}
+        - {x: 31.5, y: 75}
+        - {x: 21.5, y: 108}
+    - name: Player HandJumpDown_7
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 157
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.5, y: 114}
+        - {x: -18.5, y: 114}
+        - {x: -25.5, y: 113}
+        - {x: -25.5, y: 50}
+        - {x: -24.5, y: 43}
+        - {x: -13.5, y: 0}
+        - {x: 7.5, y: 0}
+        - {x: 31.5, y: 12}
+        - {x: 31.5, y: 54}
+        - {x: 17.5, y: 106}
+    - name: Player HandJumpDown_8
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 157
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: 14}
+        - {x: 0.5, y: 17}
+        - {x: 1.5, y: 13}
+        - {x: 7.5, y: 11}
+        - {x: 31.5, y: 20}
+        - {x: 31.5, y: 30}
+        - {x: 29.5, y: 35}
+        - {x: 12.5, y: 99}
+        - {x: 1.5, y: 115}
+        - {x: -14.5, y: 115}
+        - {x: -25.5, y: 113}
+        - {x: -25.5, y: 43}
+        - {x: -12.5, y: 0}
+        - {x: 1.5, y: 0}
+        - {x: 3.5, y: 2}
+        - {x: 4.5, y: 8}
+        - {x: 2.5, y: 13}
+    - name: Player HandJumpDown_9
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 157
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.5, y: 115}
+        - {x: -21.5, y: 115}
+        - {x: -25.5, y: 112}
+        - {x: -25.5, y: 20}
+        - {x: -10.5, y: 0}
+        - {x: 18.5, y: 0}
+        - {x: 31.5, y: 10}
+        - {x: 31.5, y: 49}
+        - {x: 11.5, y: 104}
+    - name: Player HandJumpDown_10
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 157
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: 43}
+        - {x: 18.5, y: 47}
+        - {x: 10.5, y: 54}
+        - {x: 8.5, y: 55}
+        - {x: 11.5, y: 104}
+        - {x: -1.5, y: 115}
+        - {x: -13.5, y: 115}
+        - {x: -24.5, y: 111}
+        - {x: -25.5, y: 98}
+        - {x: -25.5, y: 36}
+        - {x: -7.5, y: 0}
+        - {x: 11.5, y: 0}
+        - {x: 31.5, y: 21}
+        - {x: 31.5, y: 25}
+        - {x: 27.5, y: 34}
+    - name: Player HandJumpDown_11
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 157
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: 115}
+        - {x: -25.5, y: 115}
+        - {x: -25.5, y: 28}
+        - {x: -7.5, y: 0}
+        - {x: 12.5, y: 0}
+        - {x: 31.5, y: 18}
+        - {x: 31.5, y: 29}
+        - {x: 24.5, y: 44}
+    - name: Player HandJumpDown_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 115}
+        - {x: -25.5, y: 37}
+        - {x: -17.5, y: 20}
+        - {x: -7.5, y: 0}
+        - {x: 22.5, y: 0}
+        - {x: 31.5, y: 10}
+        - {x: 31.5, y: 81}
+        - {x: 12.5, y: 115}
+    - name: Player HandJumpUp_0
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1
+        width: 107
+        height: 155
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 3}
+        - {x: -27.5, y: 0}
+        - {x: -6.5, y: 0}
+        - {x: 31.5, y: 14}
+        - {x: 31.5, y: 53}
+        - {x: 11.5, y: 101}
+        - {x: -0.5, y: 114}
+        - {x: -18.5, y: 114}
+        - {x: -31.5, y: 107}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
