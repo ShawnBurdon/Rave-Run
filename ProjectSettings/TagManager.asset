@@ -13,6 +13,9 @@ TagManager:
   - Arch
   - Obstacle
   - Medium
+  - Handstand
+  - TyeDye
+  - SlowMo
   layers:
   - Default
   - TransparentFX

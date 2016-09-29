@@ -12,6 +12,7 @@ public class Player : MonoBehaviour
 	public Vector3 startPos;
 	public float jumpHeight;
 	public AudioClip[] audioClips;
+	public GameObject tyeDyeBackground;
 
 	private Animator anim;
 	private Rigidbody2D rigidBody;
@@ -31,6 +32,13 @@ public class Player : MonoBehaviour
 		rigidBody = GetComponent<Rigidbody2D>();
 		audioSource = GetComponent<AudioSource>();
 		startPos = transform.position;
+	}
+
+	public void Reset ()
+	{
+		StopAllCoroutines();
+
+		tyeDyeBackground.SetActive(false);
 	}
 	      
     void Update ()
@@ -181,11 +189,11 @@ public class Player : MonoBehaviour
 	{
 		if (myCollider.tag == "Water")
 		{
-//			myCollider.gameObject.SetActive(false);
+			//			myCollider.gameObject.SetActive(false);
 			myCollider.GetComponent<Animator>().SetTrigger("Collect");
 			hydrationBar.AddWater();
 
-			audioSource.PlayOneShot(audioClips[0], Random.Range(0.5f,1f));
+			audioSource.PlayOneShot(audioClips[0], Random.Range(0.5f, 1f));
 		}
 		else if (myCollider.tag == "Obstacle")
 		{
@@ -196,10 +204,10 @@ public class Player : MonoBehaviour
 		else if (myCollider.tag == "Arch" && !spring)
 		{
 
-            //GAME OVER
-            anim.SetBool ("Dead", true);
+			//GAME OVER
+			anim.SetBool("Dead", true);
 			audioSource.PlayOneShot(audioClips[9]);
-//			anim.SetBool("GameOver", true);
+			//			anim.SetBool("GameOver", true);
 
 			GameManager.gameOver = true;
 		}
@@ -211,27 +219,58 @@ public class Player : MonoBehaviour
 			StartCoroutine(Wait());
 
 			grounded = false;
-            rigidBody.velocity = Vector3.up * 13.0f;
-            spring = true;
+			rigidBody.velocity = Vector3.up * 13.0f;
+			spring = true;
 			anim.SetBool("Jump", true);
 			audioSource.PlayOneShot(audioClips[1]);
 		}
 		else if (myCollider.tag == "LevelSpring")
 		{
 			myCollider.GetComponent<Animator>().SetBool("Activate", true);
-            
+
 			holdGround = true;
 			StartCoroutine(Wait());
 
 			changingOnce = false;
 			grounded = false;
-            rigidBody.velocity = Vector3.up * 23.0f;
+			rigidBody.velocity = Vector3.up * 23.0f;
 			grounded = false;
-            changingLevels = true;
+			changingLevels = true;
 			anim.SetBool("Jump", true);
 			audioSource.PlayOneShot(audioClips[2]);
 
 			Camera.main.GetComponent<Animator>().SetTrigger("Level");
-        }
+		}
+		else if (myCollider.tag == "Handstand")
+		{
+			StartCoroutine(Handstand());
+		}
+		else if (myCollider.tag == "TyeDye")
+		{
+			StartCoroutine(TyeDye());
+		}
+		else if (myCollider.tag == "SlowMo")
+		{
+			StartCoroutine(SlowMo());
+		}
+	}
+
+	IEnumerator TyeDye ()
+	{
+		tyeDyeBackground.SetActive(true);
+		yield return new WaitForSeconds(10f);
+		tyeDyeBackground.SetActive(true);
+	}
+
+	IEnumerator SlowMo()
+	{
+		Time.timeScale = 0.5f;
+		yield return new WaitForSeconds(10f);
+		Time.timeScale = 1f;
+	}
+
+	IEnumerator Handstand()
+	{
+		yield return new WaitForSeconds(10f);
 	}
 }

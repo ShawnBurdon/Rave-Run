@@ -14,6 +14,10 @@ public class LayerMovement : MonoBehaviour
 	public AudioClip[] songs;
 	public AudioSource audioPlayer;
 
+	public GameObject handstandPrefab;
+	public GameObject slowMoPrefab;
+	public GameObject tieDyePrefab;
+
 	public List<Transform> activeElements;   //Contains the active layer elements, which has not reached the spawnAt position
 	private List<Transform> inactive;         //Contains the inactive layer elements
 	private Transform container;                 //Contains the layer elements
@@ -21,6 +25,9 @@ public class LayerMovement : MonoBehaviour
 	private bool changingLevels;
 	private int overallLevel = 1;
 	public int currentLev;
+
+	public List<Transform> activeCoins;   //Contains the active layer elements, which has not reached the spawnAt position
+
 
 	void Start ()
 	{
@@ -228,6 +235,14 @@ public class LayerMovement : MonoBehaviour
 		foreach (Transform child in container)
 			inactive.Add(child);
 
+		for (int i = activeCoins.Count-1; i > -1; i--)
+		{
+			if(activeCoins[i])
+				Destroy(activeCoins[i].gameObject);
+        }			
+
+		activeCoins = new List<Transform>();
+
 		ActivateLevel();
 
 		audioPlayer.clip = songs[GameManager.currentLevel];
@@ -304,12 +319,47 @@ public class LayerMovement : MonoBehaviour
 		item.gameObject.SetActive(true);
 		inactive.Remove(item);
 		activeElements.Add(item);
-//		if (GameManager.currentLevel == 3)
-//		{
-//			float yPos = Random.Range(
-//		}
-//		else
-			item.transform.position = new Vector3(xpos, item.transform.position.y, 0);
+
+		if (activeElements.Count > 1)
+			SpawnCoin(item);
+
+		//		if (GameManager.currentLevel == 3)
+		//		{
+		//			float yPos = Random.Range(
+		//		}
+		//		else
+		item.transform.position = new Vector3(xpos, item.transform.position.y, 0);
+	}
+
+	void SpawnCoin(Transform baseLevel)
+	{
+		if (Random.Range(0, 100) < 100)
+		{
+			int rand = Random.Range(0, 3);
+			GameObject prefab = null;
+
+			switch (rand)
+			{
+				case 0:
+					prefab = Instantiate(handstandPrefab, new Vector3(0, Random.Range(1.2f, 1.6f), 0), Quaternion.identity) as GameObject;
+					prefab.transform.parent = baseLevel.transform;
+					prefab.transform.localPosition = new Vector3(Random.Range(-15f, 15f), prefab.transform.localPosition.y, 0);
+					break;
+				case 1:
+					prefab = Instantiate(slowMoPrefab, new Vector3(0, Random.Range(1.2f, 1.6f), 0), Quaternion.identity) as GameObject;
+					prefab.transform.parent = baseLevel.transform;
+					prefab.transform.localPosition = new Vector3(Random.Range(-15f, 15f), prefab.transform.localPosition.y, 0);
+					break;
+				case 2:
+					prefab = Instantiate(tieDyePrefab, new Vector3(0, Random.Range(1.2f, 1.6f), 0), Quaternion.identity) as GameObject;
+					prefab.transform.parent = baseLevel.transform;
+					prefab.transform.localPosition = new Vector3(Random.Range(-15f, 15f), prefab.transform.localPosition.y, 0);
+					break;
+			}
+			prefab.name = "Why isnt it working";
+
+			activeCoins.Add(prefab.transform);
+		}
 	}
 
 	//Removes the first element

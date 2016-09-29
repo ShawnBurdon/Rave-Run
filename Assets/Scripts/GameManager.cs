@@ -32,8 +32,8 @@ public class GameManager : MonoBehaviour
 	{
 		PlayerPrefs.SetInt("ExtraLives", 10);
 		PlayerPrefs.SetInt("DoubleWater", 10);
-		
-		//AppAdvisory.Ads.AdsManager.instance.ShowBanner();
+
+		//AppAdvisory.Ads.AdsManager.instance.ShowBanner();	
 	}
 
 	void GameOver ()
@@ -68,6 +68,8 @@ public class GameManager : MonoBehaviour
 		currentLevel = 0;
 		distance = 0;
 
+		Time.timeScale = 1;
+
 		gameStarted = true;
 		gameOver = false;
 		paused = false;
@@ -76,6 +78,7 @@ public class GameManager : MonoBehaviour
 
 		hydrationBar.StartHydrationBar();
 		layerMovement.Restart(true);
+		player.GetComponent<Player>().Reset();
 
 
 		foreach (SpriteRenderer water in doubleWaterRens)
