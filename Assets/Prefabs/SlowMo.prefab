@@ -12,7 +12,7 @@ GameObject:
   - 58: {fileID: 5830004}
   m_Layer: 0
   m_Name: SlowMo
-  m_TagString: New Tag
+  m_TagString: SlowMo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -243,14 +243,23 @@ public class Player : MonoBehaviour
 		}
 		else if (myCollider.tag == "Handstand")
 		{
+			myCollider.gameObject.SetActive(false);
+			audioSource.PlayOneShot(audioClips[10]);
+
 			StartCoroutine(Handstand());
 		}
 		else if (myCollider.tag == "TyeDye")
 		{
+			myCollider.gameObject.SetActive(false);
+			audioSource.PlayOneShot(audioClips[10]);
+
 			StartCoroutine(TyeDye());
 		}
 		else if (myCollider.tag == "SlowMo")
 		{
+			myCollider.gameObject.SetActive(false);
+			audioSource.PlayOneShot(audioClips[10]);
+
 			StartCoroutine(SlowMo());
 		}
 	}
@@ -259,13 +268,13 @@ public class Player : MonoBehaviour
 	{
 		tyeDyeBackground.SetActive(true);
 		yield return new WaitForSeconds(10f);
-		tyeDyeBackground.SetActive(true);
+		tyeDyeBackground.SetActive(false);
 	}
 
 	IEnumerator SlowMo()
 	{
 		Time.timeScale = 0.5f;
-		yield return new WaitForSeconds(10f);
+		yield return new WaitForSeconds(5f);
 		Time.timeScale = 1f;
 	}
 

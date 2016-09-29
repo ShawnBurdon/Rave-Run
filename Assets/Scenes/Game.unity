@@ -2850,6 +2850,30 @@ Prefab:
       propertyPath: m_SortingOrder
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 463734, guid: 5739b1ec99f479745b23e03030f96e52, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 463734, guid: 5739b1ec99f479745b23e03030f96e52, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 463734, guid: 5739b1ec99f479745b23e03030f96e52, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0.3534749
+      objectReference: {fileID: 0}
+    - target: {fileID: 463734, guid: 5739b1ec99f479745b23e03030f96e52, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.935444
+      objectReference: {fileID: 0}
+    - target: {fileID: 463734, guid: 5739b1ec99f479745b23e03030f96e52, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -41.399998
+      objectReference: {fileID: 0}
+    - target: {fileID: 197880, guid: 5739b1ec99f479745b23e03030f96e52, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5739b1ec99f479745b23e03030f96e52, type: 2}
   m_IsPrefabParent: 0
@@ -2872,7 +2896,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6afa4726c9051c4683e9bf0a24112b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.5
+  rotateSpeed: 0.5
+  scaleSpeed: 2
 --- !u!212 &243108761 stripped
 SpriteRenderer:
   m_PrefabParentObject: {fileID: 21205084, guid: 94fadec3074f6e34e95b9dfc15f2df98,
@@ -9546,6 +9571,10 @@ SpriteRenderer:
   m_PrefabParentObject: {fileID: 21277046, guid: 495fee224e2fb5e4e817f0ad3d08446e,
     type: 2}
   m_PrefabInternal: {fileID: 2089414595}
+--- !u!1 &651319645 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 118424, guid: 5739b1ec99f479745b23e03030f96e52, type: 2}
+  m_PrefabInternal: {fileID: 241150213}
 --- !u!212 &652392266 stripped
 SpriteRenderer:
   m_PrefabParentObject: {fileID: 21290082, guid: af692d5e5ee2e224f9f8f112747b6f08,
@@ -11022,6 +11051,7 @@ MonoBehaviour:
   tieDyePrefab: {fileID: 161938, guid: 9e7c2ea2b2f54044c8da3a67c64043b7, type: 2}
   activeElements: []
   currentLev: 0
+  activeCoins: []
 --- !u!212 &682475989 stripped
 SpriteRenderer:
   m_PrefabParentObject: {fileID: 21249266, guid: 67319a32233378f4e8556cee8c607c84,
@@ -22762,7 +22792,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11471528, guid: 4f0ba45c36562fc48a9e242f66f4d762, type: 2}
       propertyPath: audioClips.Array.size
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 496070, guid: 4f0ba45c36562fc48a9e242f66f4d762, type: 2}
       propertyPath: m_LocalPosition.x
@@ -22852,6 +22882,14 @@ Prefab:
       propertyPath: reverbZoneMixCustomCurve.m_RotationOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11471528, guid: 4f0ba45c36562fc48a9e242f66f4d762, type: 2}
+      propertyPath: tyeDyeBackground
+      value: 
+      objectReference: {fileID: 651319645}
+    - target: {fileID: 11471528, guid: 4f0ba45c36562fc48a9e242f66f4d762, type: 2}
+      propertyPath: audioClips.Array.data[10]
+      value: 
+      objectReference: {fileID: 8300000, guid: ec73344e65d1b11458f29c202a798182, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4f0ba45c36562fc48a9e242f66f4d762, type: 2}
   m_IsPrefabParent: 0

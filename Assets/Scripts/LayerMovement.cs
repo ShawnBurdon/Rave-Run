@@ -356,7 +356,6 @@ public class LayerMovement : MonoBehaviour
 					prefab.transform.localPosition = new Vector3(Random.Range(-15f, 15f), prefab.transform.localPosition.y, 0);
 					break;
 			}
-			prefab.name = "Why isnt it working";
 
 			activeCoins.Add(prefab.transform);
 		}
