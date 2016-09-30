@@ -45,6 +45,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 496070}
   m_RootOrder: 0
@@ -55,8 +56,9 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 185844}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3, y: 8.64000034, z: 0}
+  m_LocalPosition: {x: -3, y: 8.64, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 460616}
   m_Father: {fileID: 0}
@@ -68,9 +70,10 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 185844}
+  m_UseAutoMass: 0
   m_Mass: 5
-  m_LinearDrag: .150000006
-  m_AngularDrag: .0500000007
+  m_LinearDrag: 0.15
+  m_AngularDrag: 0.05
   m_GravityScale: 0
   m_IsKinematic: 0
   m_Interpolate: 2
@@ -84,12 +87,13 @@ BoxCollider2D:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 185844}
   m_Enabled: 1
+  m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: .0299999993, y: .5}
+  m_Offset: {x: 0.03, y: 0.5}
   serializedVersion: 2
-  m_Size: {x: .300000012, y: 1}
+  m_Size: {x: 0.3, y: 1}
 --- !u!82 &8222296
 AudioSource:
   m_ObjectHideFlags: 1
@@ -105,6 +109,7 @@ AudioSource:
   m_Pitch: 1
   Loop: 0
   Mute: 0
+  Spatialize: 0
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
@@ -129,6 +134,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
+    m_RotationOrder: 4
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -139,6 +145,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
+    m_RotationOrder: 0
   spreadCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -149,6 +156,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
+    m_RotationOrder: 4
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -159,6 +167,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!95 &9568596
 Animator:
   serializedVersion: 3
@@ -198,8 +207,9 @@ MonoBehaviour:
   audioClips:
   - {fileID: 8300000, guid: a3f3e1311314b574798e109d89b68961, type: 3}
   - {fileID: 8300000, guid: a3f3e1311314b574798e109d89b68961, type: 3}
-  - {fileID: 8300000, guid: a58a65c8cc4afa94ebf9e77866fa4406, type: 3}
+  - {fileID: 0}
   - {fileID: 8300000, guid: 026aa14ac8e0f854393258bd39305005, type: 3}
+  tyeDyeBackground: {fileID: 0}
 --- !u!212 &21255984
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -218,14 +228,18 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 561542005
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300012, guid: 700d1da2acae877489eccc88696896e6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

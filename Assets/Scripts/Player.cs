@@ -37,7 +37,7 @@ public class Player : MonoBehaviour
 	public void Reset ()
 	{
 		StopAllCoroutines();
-		anim.SetInteger("Handstand", 0);
+		anim.SetFloat("Handstand", 0f);
 
 		tyeDyeBackground.SetActive(false);
 	}
@@ -281,8 +281,8 @@ public class Player : MonoBehaviour
 
 	IEnumerator Handstand()
 	{
-		anim.SetInteger("Handstand", 1);
+		anim.SetFloat("Handstand", 1f);
 		yield return new WaitForSeconds(10f);
-		anim.SetInteger("Handstand", 0);
+		anim.SetFloat("Handstand", 0f);
 	}
 }

@@ -43,7 +43,7 @@ public class GameManager : MonoBehaviour
 
 		paused = true;
 		gameStarted = false;
-		player.GetComponent<Animator>().SetBool ("Dead", true);
+		player.GetComponent<Animator>().SetBool("Dead", true);
 		StartCoroutine("Wait");
 	}
 	public void Pause ()
