@@ -108,12 +108,12 @@ public class LayerMovement : MonoBehaviour
 				Debug.Log ("Spawn level 2");
 				SpawnEndElement();
 			}
-			else if (GameManager.distance >= 600 && GameManager.currentLevel == 1 && !changingLevels)//level 3
+			else if (GameManager.distance >= 750 && GameManager.currentLevel == 1 && !changingLevels)//level 3
 			{
 				Debug.Log ("Spawn level 3");
 				SpawnEndElement();
 			}
-			else if (GameManager.distance >= 900 && GameManager.currentLevel == 2 && !changingLevels)//level 4
+			else if (GameManager.distance >= 1200 && GameManager.currentLevel == 2 && !changingLevels)//level 4
 			{
 				Debug.Log ("Spawn level 4");
 				SpawnEndElement();
