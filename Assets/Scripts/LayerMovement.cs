@@ -103,17 +103,17 @@ public class LayerMovement : MonoBehaviour
 				RemoveElement(activeElements[0]);
 			}
 			
-			if (GameManager.distance >= 650 && GameManager.currentLevel == 0 && !changingLevels)//level 2
+			if (GameManager.distance >= 300 && GameManager.currentLevel == 0 && !changingLevels)//level 2
 			{
 				Debug.Log ("Spawn level 2");
 				SpawnEndElement();
 			}
-			else if (GameManager.distance >= 1810 && GameManager.currentLevel == 1 && !changingLevels)//level 3
+			else if (GameManager.distance >= 600 && GameManager.currentLevel == 1 && !changingLevels)//level 3
 			{
 				Debug.Log ("Spawn level 3");
 				SpawnEndElement();
 			}
-			else if (GameManager.distance >= 3300 && GameManager.currentLevel == 2 && !changingLevels)//level 4
+			else if (GameManager.distance >= 900 && GameManager.currentLevel == 2 && !changingLevels)//level 4
 			{
 				Debug.Log ("Spawn level 4");
 				SpawnEndElement();
@@ -333,7 +333,7 @@ public class LayerMovement : MonoBehaviour
 
 	void SpawnCoin(Transform baseLevel)
 	{
-		if (Random.Range(0, 100) < 100)
+		if (Random.Range(0, 100) < 30)
 		{
 			int rand = Random.Range(0, 3);
 			GameObject prefab = null;
