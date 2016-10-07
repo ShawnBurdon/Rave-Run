@@ -103,17 +103,17 @@ public class LayerMovement : MonoBehaviour
 				RemoveElement(activeElements[0]);
 			}
 			
-			if (GameManager.distance >= 300 && GameManager.currentLevel == 0 && !changingLevels)//level 2
+			if (GameManager.distance >= 190 && GameManager.currentLevel == 0 && !changingLevels)//level 2
 			{
 				Debug.Log ("Spawn level 2");
 				SpawnEndElement();
 			}
-			else if (GameManager.distance >= 750 && GameManager.currentLevel == 1 && !changingLevels)//level 3
+			else if (GameManager.distance >= 440 && GameManager.currentLevel == 1 && !changingLevels)//level 3
 			{
 				Debug.Log ("Spawn level 3");
 				SpawnEndElement();
 			}
-			else if (GameManager.distance >= 1200 && GameManager.currentLevel == 2 && !changingLevels)//level 4
+			else if (GameManager.distance >= 880 && GameManager.currentLevel == 2 && !changingLevels)//level 4
 			{
 				Debug.Log ("Spawn level 4");
 				SpawnEndElement();
@@ -199,6 +199,7 @@ public class LayerMovement : MonoBehaviour
 		overallLevel++;
 		
 		ActivateLevel();
+		StartCoroutine("FadeMusic");
 	}
 
 	IEnumerator FadeMusic()
@@ -245,8 +246,8 @@ public class LayerMovement : MonoBehaviour
 
 		ActivateLevel();
 
-		audioPlayer.clip = songs[GameManager.currentLevel];
-		audioPlayer.Play();
+		StopCoroutine("FadeMusic");
+		StartCoroutine("FadeMusic");
 	}
 
 	void ActivateLevel ()

@@ -234,7 +234,7 @@ public class Player : MonoBehaviour
 
 			changingOnce = false;
 			grounded = false;
-			rigidBody.velocity = Vector3.up * 23.0f;
+			rigidBody.velocity = Vector3.up * 25.0f;
 			grounded = false;
 			changingLevels = true;
 			anim.SetBool("Jump", true);

@@ -23,7 +23,7 @@ public class HydrationBar : MonoBehaviour
 		{
 			if (waterBar.fillAmount <= 0f)
 			{
-				//GameManager.gameOver = true;//REMOVE FOR DEATH
+				GameManager.gameOver = true;//REMOVE FOR DEATH
 			}
 
 			if (!GameManager.doubleWaterActive)

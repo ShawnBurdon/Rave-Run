@@ -19,7 +19,12 @@ public class MenuManager : MonoBehaviour
         anim.SetInteger("MenuNav", number);
 	}
 
-    public void StoreNav (int number)
+	public void Quit ()
+	{
+		Application.Quit();
+	}
+
+	public void StoreNav (int number)
     {
         anim.SetInteger("StoreNav", number);
     }
