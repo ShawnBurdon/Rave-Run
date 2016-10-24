@@ -29,10 +29,10 @@ MonoBehaviour:
   rewardedVideoAlwaysSuccessInSimulator: 0
   isAmazon: 0
   AdmobBannerIdIOS: 
-  AdmobInterstitialIdIOS: 
+  AdmobInterstitialIdIOS: ca-app-pub-8621808235382704/9129190276
   AdmobRewardedVideoIdIOS: 
   AdmobBannerIdANDROID: 
-  AdmobInterstitialIdANDROID: 
+  AdmobInterstitialIdANDROID: ca-app-pub-8621808235382704/6175723879
   AdmobRewardedVideoIdANDROID: 
   AdmobBannerIdAMAZON: 
   AdmobInterstitialIdAMAZON: 

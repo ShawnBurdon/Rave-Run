@@ -103,17 +103,17 @@ public class LayerMovement : MonoBehaviour
 				RemoveElement(activeElements[0]);
 			}
 			
-			if (GameManager.distance >= 190 && GameManager.currentLevel == 0 && !changingLevels)//level 2
+			if (GameManager.distance >= 400 && GameManager.currentLevel == 0 && !changingLevels)//level 2
 			{
 				Debug.Log ("Spawn level 2");
 				SpawnEndElement();
 			}
-			else if (GameManager.distance >= 440 && GameManager.currentLevel == 1 && !changingLevels)//level 3
+			else if (GameManager.distance >= 1100 && GameManager.currentLevel == 1 && !changingLevels)//level 3
 			{
 				Debug.Log ("Spawn level 3");
 				SpawnEndElement();
 			}
-			else if (GameManager.distance >= 880 && GameManager.currentLevel == 2 && !changingLevels)//level 4
+			else if (GameManager.distance >= 2200 && GameManager.currentLevel == 2 && !changingLevels)//level 4
 			{
 				Debug.Log ("Spawn level 4");
 				SpawnEndElement();
@@ -121,47 +121,47 @@ public class LayerMovement : MonoBehaviour
 		}
 	}
 
-	public void RestartOnLevel()
-	{
-		if (GameManager.currentLevel == 1)
-		{
-			IncreaseLevel();
-		}
-		else if (GameManager.currentLevel == 2)
-		{
-			IncreaseLevel();
-			IncreaseLevel();
-		}
-		else if (GameManager.currentLevel == 3)
-		{
-			IncreaseLevel();
-			IncreaseLevel();
-			IncreaseLevel();
-		}
+	//public void RestartOnLevel()
+	//{
+	//	if (GameManager.currentLevel == 1)
+	//	{
+	//		IncreaseLevel();
+	//	}
+	//	else if (GameManager.currentLevel == 2)
+	//	{
+	//		IncreaseLevel();
+	//		IncreaseLevel();
+	//	}
+	//	else if (GameManager.currentLevel == 3)
+	//	{
+	//		IncreaseLevel();
+	//		IncreaseLevel();
+	//		IncreaseLevel();
+	//	}
 
-		Restart();
+	//	Restart();
 
-		if (GameManager.currentLevel == 1)
-		{
-			speedMultiplier = 1.0f;
-		}
-		else if (GameManager.currentLevel == 2)
-		{
-			speedMultiplier = 2.0f;
-		}
-		else if (GameManager.currentLevel == 3)
-		{
-			speedMultiplier = 3.0f;
-		}
-		else if (GameManager.currentLevel == 4)
-		{
-			speedMultiplier = 4.0f;
-		}
-		else if (GameManager.currentLevel >= 5)
-		{
-			speedMultiplier = 5.0f;
-		}
-	}
+	//	if (GameManager.currentLevel == 1)
+	//	{
+	//		speedMultiplier = 1.0f;
+	//	}
+	//	else if (GameManager.currentLevel == 2)
+	//	{
+	//		speedMultiplier = 2.0f;
+	//	}
+	//	else if (GameManager.currentLevel == 3)
+	//	{
+	//		speedMultiplier = 3.0f;
+	//	}
+	//	else if (GameManager.currentLevel == 4)
+	//	{
+	//		speedMultiplier = 4.0f;
+	//	}
+	//	else if (GameManager.currentLevel >= 5)
+	//	{
+	//		speedMultiplier = 5.0f;
+	//	}
+	//}
 
 	public void SpawnEndElement()
 	{	
@@ -199,25 +199,42 @@ public class LayerMovement : MonoBehaviour
 		overallLevel++;
 		
 		ActivateLevel();
-		StartCoroutine("FadeMusic");
 	}
 
-	IEnumerator FadeMusic()
+	IEnumerator FadeMusic(int songNum)
 	{
-		for (int i = 100; i > 0; i--)
+		for (float i = 40; i > 0; i--)
 		{
-			audioPlayer.volume = i/100;
-			yield return new WaitForSeconds(0.015f);
+			audioPlayer.volume = i/40f;
+			yield return new WaitForSeconds(0.001f);
 		}
 		
-		audioPlayer.clip = songs[GameManager.currentLevel];
+		audioPlayer.clip = songs[songNum];
 		audioPlayer.Play();
 
-		for (int i = 0; i < 100; i++)
+		if (GameManager.currentLevel < 3)
 		{
-			audioPlayer.volume = i/100;
-			yield return new WaitForSeconds(0.015f);
+			StartCoroutine("SongWait");
+			audioPlayer.loop = false;
 		}
+		else
+			audioPlayer.loop = true;
+
+		for (float i = 0; i < 40; i++)
+		{
+			audioPlayer.volume = i/40f;
+			yield return new WaitForSeconds(0.001f);
+		}
+	}
+
+	IEnumerator SongWait ()
+	{
+		yield return new WaitForSeconds(audioPlayer.clip.length);
+
+		if (overallLevel < 3)
+			StartCoroutine("FadeMusic", GameManager.currentLevel + 1);
+		else
+			StartCoroutine("FadeMusic", 3);
 	}
 
 	public void Restart (bool start = false) 
@@ -247,7 +264,7 @@ public class LayerMovement : MonoBehaviour
 		ActivateLevel();
 
 		StopCoroutine("FadeMusic");
-		StartCoroutine("FadeMusic");
+		StartCoroutine("FadeMusic", 0);
 	}
 
 	void ActivateLevel ()
@@ -305,6 +322,8 @@ public class LayerMovement : MonoBehaviour
 				xpos = activeElements[activeElements.Count-1].position.x + 40.96f;
 			else if (activeElements[activeElements.Count-1].tag == "Small" && item.tag == "Small")
 				xpos = activeElements[activeElements.Count-1].position.x + 30.72f;
+			else if (activeElements[activeElements.Count - 1].tag == "Start")
+				xpos = activeElements[activeElements.Count - 1].position.x + 30.72f;
 		}
 		else
 		{

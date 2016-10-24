@@ -16,6 +16,7 @@ TagManager:
   - Handstand
   - TyeDye
   - SlowMo
+  - Start
   layers:
   - Default
   - TransparentFX

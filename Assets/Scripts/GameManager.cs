@@ -38,7 +38,7 @@ public class GameManager : MonoBehaviour
 
 	void GameOver ()
 	{
-		if (PlayerPrefs.GetInt("ExtraLives") > 0)
+		if (PlayerPrefs.GetInt("ExtraLives") > 0 && !extraLifeActive)
 			StartCoroutine(ExtraLivesBooster());
 
 		paused = true;
@@ -146,7 +146,7 @@ public class GameManager : MonoBehaviour
 			paused = false;
 
 			hydrationBar.StartHydrationBar();
-			layerMovement.RestartOnLevel();
+			//layerMovement.RestartOnLevel();
 		}
 	}
 
@@ -173,6 +173,8 @@ public class GameManager : MonoBehaviour
 		PlayerPrefs.Save();
 
 		paused = false;
+
+		AppAdvisory.Ads.AdsManager.Instance.ShowInterstitial();
 	}
 
 	public void PauseQuit ()

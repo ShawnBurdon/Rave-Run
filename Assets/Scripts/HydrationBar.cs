@@ -82,6 +82,10 @@ public class HydrationBar : MonoBehaviour
 
 	public void LoseWater ()
 	{
-		waterBar.fillAmount -= 0.33f;
+		if (!GameManager.doubleWaterActive)
+			waterBar.fillAmount -= 0.33f;
+		else
+			waterBar.fillAmount -= 0.165f;
+
 	}
 }
