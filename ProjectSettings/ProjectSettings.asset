@@ -345,7 +345,7 @@ PlayerSettings:
   psmSplashimage: {fileID: 0}
   spritePackerPolicy: 
   scriptingDefineSymbols:
-    4: ENABLE_ADMOB;GOOGLE_MOBILE_ADS;APPADVISORY_ADS
+    4: NO_GPGS
     7: ENABLE_ADMOB;GOOGLE_MOBILE_ADS;APPADVISORY_ADS
   metroPackageName: 2D Infinite Runner Toolkit 2.0
   metroPackageVersion: 
