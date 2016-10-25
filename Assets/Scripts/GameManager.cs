@@ -174,7 +174,7 @@ public class GameManager : MonoBehaviour
 
 		paused = false;
 
-		AppAdvisory.Ads.AdsManager.Instance.ShowInterstitial();
+		//AppAdvisory.Ads.AdsManager.Instance.ShowInterstitial();
 	}
 
 	public void PauseQuit ()
