@@ -227,6 +227,29 @@ public class LayerMovement : MonoBehaviour
 		}
 	}
 
+	IEnumerator PlayFinalLoop()
+	{
+		for (float i = 40; i > 0; i--)
+		{
+			audioPlayer.volume = i / 40f;
+			yield return new WaitForSeconds(0.001f);
+		}
+
+		audioPlayer.clip = songs[3];
+		audioPlayer.Play();
+
+		for (float i = 0; i < 40; i++)
+		{
+			audioPlayer.volume = i / 40f;
+			yield return new WaitForSeconds(0.001f);
+		}
+
+		yield return new WaitForSeconds(songs[3].length - 0.04f);
+		audioPlayer.clip = songs[4];
+		audioPlayer.Play();
+		audioPlayer.loop = true;
+	}
+
 	IEnumerator SongWait ()
 	{
 		yield return new WaitForSeconds(audioPlayer.clip.length);
@@ -234,7 +257,7 @@ public class LayerMovement : MonoBehaviour
 		if (overallLevel < 3)
 			StartCoroutine("FadeMusic", GameManager.currentLevel + 1);
 		else
-			StartCoroutine("FadeMusic", 3);
+			StartCoroutine("PlayFinalLoop");
 	}
 
 	public void Restart (bool start = false) 

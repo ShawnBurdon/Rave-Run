@@ -4363,6 +4363,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 916176501}
+        m_MethodName: StartMenuMusic
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &426463947
@@ -8363,10 +8374,11 @@ MonoBehaviour:
   speedMultiplier: 1
   increaseRate: 0.0001
   songs:
-  - {fileID: 8300000, guid: b021c0fc1fc37984a97e7dd15a6fa917, type: 3}
-  - {fileID: 8300000, guid: 2ea30807a62614646801afd3c8307d08, type: 3}
-  - {fileID: 8300000, guid: 5e46a38a6bfa95442a6f5fe73e34b237, type: 3}
-  - {fileID: 8300000, guid: e8d900771257c6e4e9ff4ad1ff5c74b9, type: 3}
+  - {fileID: 8300000, guid: c5c769a36ea997c40a247b065383724c, type: 3}
+  - {fileID: 8300000, guid: dc15d58a25e754d498e96e55b589e043, type: 3}
+  - {fileID: 8300000, guid: 3cdbff73a5c0bc24f819de7a96ef4ce4, type: 3}
+  - {fileID: 8300000, guid: 5344aaeb4f680984fbf18eb75ce24fe9, type: 3}
+  - {fileID: 8300000, guid: 273179d05537f8448a44238c0b6b4c6a, type: 3}
   audioPlayer: {fileID: 1724990128}
   handstandPrefab: {fileID: 148422, guid: 996d3e62ed0e7d2428a0ceba3c2b8316, type: 2}
   slowMoPrefab: {fileID: 169988, guid: 541e26a535738324292c80884439791e, type: 2}
@@ -10977,6 +10989,9 @@ MonoBehaviour:
   - {fileID: 1339552098}
   musicSource: {fileID: 1724990128}
   soundSource: {fileID: 1349765170}
+  menuMusic:
+  - {fileID: 8300000, guid: e482b307b5a411349bc5f360530afd6b, type: 3}
+  - {fileID: 8300000, guid: d1a5d8b04ca6d6f40ad41fe2f1ee1d6e, type: 3}
 --- !u!212 &916176502
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19981,6 +19996,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 916176501}
+        m_MethodName: StopMenuMusic
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1639015598
@@ -22900,11 +22926,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: b021c0fc1fc37984a97e7dd15a6fa917, type: 3}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   Priority: 128
@@ -24753,6 +24779,17 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: End
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 916176501}
+        m_MethodName: StartMenuMusic
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,

@@ -10,6 +10,7 @@ public class MenuManager : MonoBehaviour
     public GameObject[] sound;
 	public AudioSource musicSource;
 	public AudioSource soundSource;
+	public AudioClip[] menuMusic;
 
     bool musicEnabled = true;
     bool soundEnabled = true;
@@ -82,4 +83,42 @@ public class MenuManager : MonoBehaviour
             sound[1].SetActive(true);
         }
     }
+
+	void Start ()
+	{
+		StartMenuMusic();
+	}
+
+	public void StopMenuMusic()
+	{
+		StopCoroutine("PlaySong");
+	}
+
+	public void StartMenuMusic()
+	{
+		StartCoroutine("PlaySong");
+	}
+
+	IEnumerator PlaySong()
+	{
+		for (float i = 40; i > 0; i--)
+		{
+			musicSource.volume = i / 40f;
+			yield return new WaitForSeconds(0.001f);
+		}
+
+		musicSource.clip = menuMusic[0];
+		musicSource.Play();
+
+		for (float i = 0; i < 40; i++)
+		{
+			musicSource.volume = i / 40f;
+			yield return new WaitForSeconds(0.001f);
+		}
+
+		yield return new WaitForSeconds(menuMusic[0].length - 0.04f);
+		musicSource.clip = menuMusic[1];
+		musicSource.Play();
+		musicSource.loop = true;
+	}
 }
