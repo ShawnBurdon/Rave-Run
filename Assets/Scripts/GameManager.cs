@@ -32,8 +32,11 @@ public class GameManager : MonoBehaviour
 	{
 		PlayerPrefs.SetInt("ExtraLives", 10);
 		PlayerPrefs.SetInt("DoubleWater", 10);
+	}
 
-		//AppAdvisory.Ads.AdsManager.instance.ShowBanner();	
+	void Start ()
+	{
+		AppAdvisory.Ads.AdsManager.Instance.ShowBanner();
 	}
 
 	void GameOver ()
@@ -54,6 +57,7 @@ public class GameManager : MonoBehaviour
 
 	public void StartGame(bool extraLife = false)
 	{
+
 		if (player.GetComponent<Animator>().GetBool("Dead") == true)
 		{
 			player.GetComponent<Animator>().SetBool("Dead", false);
@@ -174,7 +178,7 @@ public class GameManager : MonoBehaviour
 
 		paused = false;
 
-		//AppAdvisory.Ads.AdsManager.Instance.ShowInterstitial();
+		AppAdvisory.Ads.AdsManager.Instance.ShowInterstitial();
 	}
 
 	public void PauseQuit ()

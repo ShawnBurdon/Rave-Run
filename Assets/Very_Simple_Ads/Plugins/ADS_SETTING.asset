@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd7a4fd6f811943e69ee3b2681d229f4, type: 3}
+  m_Name: ADS_SETTING
+  m_EditorClassIdentifier: 
+  IsAndroidAmazon: 0
+  ChartboostAppIdIOS: 570e90c043150f360cdc05de
+  ChartboostAppSignatureIOS: 83e5d7aefcd48ab068011a8f6eabef473f8ea472
+  ChartboostAppIdAndroid: 570e986143150f36066e5228
+  ChartboostAppSignatureAndroid: cacc35d97ceab23e3af4a994d6bb0821efd4aedc
+  ChartboostAppIdAmazon: 570e987143150f36066e523c
+  ChartboostAppSignatureAmazon: 136522c4e3e90b572380ab52dee51b9d2d5333fd
+  IsAdmobSettingsOpened: 1
+  IsAdmobIOSSettingsOpened: 1
+  IsAdmobANDROIDSettingsOpened: 1
+  IsAdmobAMAZONSettingsOpened: 0
+  IsUnityAdsSettingsOpened: 0
+  IsChartboostSettingsOpened: 1
+  IsADColonySettingsOpened: 0
+  rewardedVideoAlwaysReadyInSimulator: 0
+  rewardedVideoAlwaysSuccessInSimulator: 0
+  isAmazon: 0
+  AdmobBannerIdIOS: ca-app-pub-8621808235382704/7847399473
+  AdmobInterstitialIdIOS: ca-app-pub-8621808235382704/9129190276
+  AdmobRewardedVideoIdIOS: 
+  AdmobBannerIdANDROID: ca-app-pub-8621808235382704/4893933074
+  AdmobInterstitialIdANDROID: ca-app-pub-8621808235382704/6175723879
+  AdmobRewardedVideoIdANDROID: 
+  AdmobBannerIdAMAZON: 
+  AdmobInterstitialIdAMAZON: 
+  AdmobRewardedVideoIdAMAZON: 
