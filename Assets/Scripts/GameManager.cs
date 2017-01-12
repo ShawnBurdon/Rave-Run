@@ -36,7 +36,7 @@ public class GameManager : MonoBehaviour
 
 	void Start ()
 	{
-		AppAdvisory.Ads.AdsManager.Instance.ShowBanner();
+		//AppAdvisory.Ads.AdsManager.Instance.ShowBanner();
 	}
 
 	void GameOver ()
